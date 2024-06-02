@@ -23,8 +23,8 @@ Questions, suggestions, and corrections are very welcome.
 ## Table of Contents
 
 **Node Basics**
+
 **Node on the Command Line**
-*
 
 
 ## Useful Resources
