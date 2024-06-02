@@ -13,7 +13,7 @@ This collection of Node recipes is intended to:
 
 ### Who is this for?
 
-This is aimed very much at beginners. If you're new to Node but have experience in other programming languages, you may find some of this pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should find that mo
+This is aimed very much at beginners. If you're new to Node but have experience in other programming languages, you may find some of this pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should find that 
 
 I'm assuming that readers understand JavaScript fundamentals, basic HTML/CSS, are comfortable using a development environment like VSCode, and have some very basic familiarity with using a terminal and the command line (if you feel comfortable opening a terminal and entering simple commands, you're good).
 
