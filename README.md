@@ -6,7 +6,6 @@ This collection of Node recipes--tiny programs meant to demonstrate one or two f
 
 ### Goals
 
-This collection of Node recipes is intended to: 
 * Demonstrate basic features of Node by building tiny programs
 * Introduce new users to Node's docs
 * Give new users enough basic knowledge to learn and build more on their own
