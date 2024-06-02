@@ -10,7 +10,6 @@ This collection of Node recipes is intended to:
 * Demonstrate basic features of Node by building tiny programs
 * Introduce new users to Node's docs
 * Give new users enough basic knowledge to learn and build more on their own
-* Improve my own grasp of Node by having to explain it
 
 ### Who is this for?
 
@@ -18,16 +17,20 @@ This is aimed very much at beginners. If you're new to Node but have experience 
 
 I am assuming that readers understand JavaScript fundamentals, basic HTML/CSS, are comfortable using a development environment like VSCode, and have some very basic familiarity with using a terminal and the command line (if you feel comfortable opening a terminal and entering simple commands, you're good).
 
+In many ways, this for myself. I'd like to feel like I have a more comprehensive grasp of Node, and creating recipes for other people is a great way to find the weaknesses in your own understanding. Here's the stuff I wish had been explained more clearly when I started.
+
 Questions, suggestions, and corrections are very welcome. 
 
 ## Table of Contents
 
 **Node Basics**
-* Node on the Command Line
-* 
+**Node on the Command Line**
+*
 
 
+## Useful Resources
 
+A collection of resources, online and off, which I've found useful. 
 
 ## License
 
