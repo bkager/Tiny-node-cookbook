@@ -10,16 +10,21 @@ This collection of Node recipes is intended to:
 * Demonstrate basic features of Node by building tiny programs
 * Introduce new users to Node's docs
 * Give new users enough basic knowledge to learn and build more on their own
+* Improve my own grasp of Node by having to explain it
 
 ### Who is this for?
 
-This is aimed very much at beginners. If you're new to Node but have experience in other programming languages, you may find some of this pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should find that 
+This is aimed very much at beginners. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed.
 
-I'm assuming that readers understand JavaScript fundamentals, basic HTML/CSS, are comfortable using a development environment like VSCode, and have some very basic familiarity with using a terminal and the command line (if you feel comfortable opening a terminal and entering simple commands, you're good).
+I am assuming that readers understand JavaScript fundamentals, basic HTML/CSS, are comfortable using a development environment like VSCode, and have some very basic familiarity with using a terminal and the command line (if you feel comfortable opening a terminal and entering simple commands, you're good).
+
+Questions, suggestions, and corrections are very welcome. 
 
 ## Table of Contents
 
-* Node Basics
+**Node Basics**
+* Node on the Command Line
+* 
 
 
 
