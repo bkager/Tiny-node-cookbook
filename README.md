@@ -1,7 +1,16 @@
 # Node-cookbook
-A collection of Node recipes. Designed for beginners. 
+
+I love Node, but it can be hard to get started with it. The documentation, especially, is not the most intuitive for new users, especially if JavaScript is their first programming language. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
+
+### Goals
+
+This collection of Node recipes is intended to: 
+* Demonstrate basic features of Node
+* Introduce new users to Node's docs
+* Give new users enough basic knowledge to go learn and build more on their own
 
 ## Table of Contents
+
 
 
 
