@@ -1,6 +1,6 @@
 # Node Cookbook
 
-I love Node, but it can be hard to get started with it. The documentation, especially, is not the most intuitive for new users, especially if JavaScript is their first programming language. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
+I love Node, but it can be hard to get started. The documentation, especially, is not the most intuitive for new users, especially if JavaScript is their first programming language. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
 
 This collection of Node recipes--tiny programs meant to demonstrate one or two features each--is intended to demonstrate the basic features of Node in a friendly, incremental way.
 
