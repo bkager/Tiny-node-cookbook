@@ -49,9 +49,9 @@ From the command line, enter `node greeter.js`. In the last recipe, you entered 
 
 The output of the program appears on the command line: a random greeting!
 
-Run it a few more times and get different greetings. 
+Run it a few more times and get different outputs from the random greeting generator. 
 
-Notice that this program doesn't take any input--you can't, for example, give it a person's name to greet when you run it. We'll add that in the next recipe, and look at the Node process module at the same time. 
+Notice that this program doesn't take any input--you can't, for example, give it a person's name when you run it to have it greet them specifically. We'll add that in the next recipe, and look at the Node process module at the same time. 
 
 ### Bonus recipes
 
