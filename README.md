@@ -1,4 +1,5 @@
-# Node Cookbook
+# The Tiny Node Cookbook
+## Tasty, bite-sized recipes for learning Node.js
 
 I love Node, but it can be hard to get started. The documentation, especially, is not the most intuitive for new users, especially if JavaScript is their first programming language. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
 
@@ -22,10 +23,29 @@ Questions, suggestions, and corrections are very welcome.
 
 ## Table of Contents
 
-**Node Basics**
+**Introduction**
 
-**Node on the Command Line**
+* Welcome to Node!
+* How this cookbook is organized
 
+**Node Basics: A Minimal Introduction to Some Important Parts**
+
+* Node on the command line: Basics
+* Node events: Basics
+* Node filesystem operations: Basics
+* Node streams and buffers: Basics
+* Async in Node
+* HTTP requests in Node
+* Creating a server in Node: Basics
+
+**Beyond the Basics**
+
+* Node on the command line
+* Node events
+* Node filesystem operations
+* Node streams and buffers
+* Creating a server
+* Making HTTP requests as a client in Node
 
 ## Useful Resources
 
