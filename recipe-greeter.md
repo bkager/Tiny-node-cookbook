@@ -35,7 +35,7 @@ Open a terminal program and navigate to a folder where you want to save the prog
 
 You're going to create a file and write in it from the command line. For this, you'll need to have a command-line text editor program. If you've worked on the command line much before, you probably already have a favorite. If you haven't, you probably have one called nano already installed on your computer. Type `nano` at the command prompt to open the nano editor. Try it out, then type CTRL+X to exit your test file. You should be back at a command prompt so we can create our actual JavaScript program. 
 
-> Side note: Nano uses commands that may not feel intuitive. They're shown at the bottom of the screen and are easy to get used to, but there are many other command line text editors which you may prefer. I like [micro](https://micro-editor.github.io/), which uses the same commands for cut, paste, save, etc. as most modern text editors like Word. Different text editors have their own benefits--I switched to micro because nano doesn't have mouse support in my preferred terminal program.
+> Side note: Nano uses commands that may not feel intuitive. They're shown at the bottom of the screen and are easy to get used to, but there are many other command line text editors which you may prefer. [micro](https://micro-editor.github.io/), for instance, uses the same commands for cut, paste, save, etc. as most modern text editors like Word.
 
 To create your program file, enter `nano greeter.js` at the command prompt. This will create a new file in your current directory called 'greeter.js' and open it in nano for editing. 
 
