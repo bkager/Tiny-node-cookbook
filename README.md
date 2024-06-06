@@ -33,13 +33,19 @@ Questions, suggestions, and corrections are very welcome.
 * Node on the command line: Basics
     * The Node REPL
       * Recipe: Random number generator
+         * Understand: Writing simple JavaScript code in the Node REPL
     * Node scripts
       * Recipe: Greeter
-        * JavaScript in the Node runtime environment  
+        * Understand: JavaScript in the Node runtime environment  
     * Node scripts with arguments
       * Recipe: Greeter by name
-        * The process module    
+        * Understand: The process module    
 * Node events: Basics
+  * Node and event-driven architecture
+  * The events module
+  * The EventEmitter class
+  *  Recipe:
+     * Understand:  
 * Node filesystem operations: Basics
 * Node streams and buffers: Basics
 * Async in Node
