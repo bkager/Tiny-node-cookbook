@@ -31,6 +31,14 @@ Questions, suggestions, and corrections are very welcome.
 **Node Basics: A Minimal Introduction to Some Important Parts**
 
 * Node on the command line: Basics
+    * The Node REPL
+      * Recipe: Random number generator
+    * Node scripts
+      * Recipe: Greeter
+        * JavaScript in the Node runtime environment  
+    * Node scripts with arguments
+      * Recipe: Greeter by name
+        * The process module    
 * Node events: Basics
 * Node filesystem operations: Basics
 * Node streams and buffers: Basics
