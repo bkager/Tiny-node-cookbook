@@ -41,7 +41,7 @@ To create your program file, enter `nano greeter.js` at the command prompt. This
 
 Type or paste in the text of the recipe above. (I recommend always retyping recipe code yourself; you'll understand it better than if you just look it over and copy it.)
 
-Notice that this is just standard JavaScript code. In the last recipe, you wrote JavaScript in the Node REPL; here, you're writing it in a file that you'll save and execute from the command line.
+Notice that this is just standard JavaScript code. In the last recipe, you wrote JavaScript in the Node REPL. Here, you're writing it in a reusable file that you'll save and execute from the command line as many times as you want.
 
 Save your file and exit (in nano, CTRL+X).
 
