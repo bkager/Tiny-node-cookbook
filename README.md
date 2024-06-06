@@ -29,7 +29,7 @@ Questions, suggestions, and corrections are very welcome.
 
 ## Useful Resources
 
-A collection of resources, online and off, which I've found useful. 
+A collection of resources which I've found useful. 
 
 ## License
 
