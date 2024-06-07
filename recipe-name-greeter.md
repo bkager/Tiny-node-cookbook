@@ -14,7 +14,6 @@
 11 console.log(`${greetings[randomNum]}, ${name}!`);
 ````
 
-___
 
 This program will show you how to add an argument when you invoke your Autogreeter program.
 
