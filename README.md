@@ -35,7 +35,7 @@ Questions, suggestions, and corrections are very welcome.
       * Recipe: Random number generator
          * Understand: Writing simple JavaScript code in the Node REPL
     * Node scripts
-      * Recipe: Greeter
+      * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
         * Understand: JavaScript in the Node runtime environment  
     * Node scripts with arguments
       * Recipe: Greeter by name
