@@ -1,25 +1,26 @@
 # Name Greeter
 
 ````
-/ This is a simple JavaScript program that accepts a name as an argument and
- 2
- 3 const greetings = ["Hello", "Hi", "Howdy", "Welcome", "Hiya"];
- 4
- 5 const name = process.argv[2]
- 6
- 7 let length = greetings.length;
- 8
- 9 let randomNum = Math.floor(Math.random() * length);
-10
-11 console.log(`${greetings[randomNum]}, ${name}!`);
-````
+// This is a simple JavaScript program that accepts a name as an argument and outputs a greeting to the named person. 
 
+const greetings = ["Hello", "Hi", "Howdy", "Welcome", "Hiya"]; 
+
+const name = process.argv[2]
+
+let length = greetings.length;
+
+let randomNum = Math.floor(Math.random() * length);
+
+console.log(`${greetings[randomNum]}, ${name}!`);
+````
+___
 
 This program will show you how to add an argument when you invoke your Autogreeter program.
 
 **Understand**
 * The Node process module
 ___
+**The Process Module**
 
 If you followed recipe XXXNUMBER, you created a program that outputs random greetings to the command line when you run it in Node. It's a very limited program, though, and can't respond to input. You just invoke it, it does its thing, you get some random output from a pre-programmed list of possibilities. We'd like to be able to pass arguments to a program  that it can then use in its code, just as we can pass arguments into functions. In this case, we could pass in a name and have the program return a personalized greeting. 
 
@@ -32,21 +33,24 @@ The process module contains one thing, the process object, which contains a vari
 
 ![Screenshot of above instructions and their output](https://github.com/bkager/Node-cookbook/assets/68086185/99c55486-25bb-4648-be67-a60765a5efb2)
 
-You don't need to worry about process.env right now, but it's a good sample of the sort of stuff the process module gives you access to--information about the Node process that is currently running and the environment its running in on your computer. 
+You don't need to worry about process.env right now, but it's a good sample of the sort of stuff the process module gives you access to--information about the Node process that is currently running and the environment it's running in on your computer. 
 
-The one piece of the process object that we care about right now is the process.argv property, which holds an array containing the command-line arguments passed in when a Node process is launched. So when you tell Node to execute a script like greeter.js, XXX: CHANGE NAME, if you type anything after the command `node greeter.js`, Node will save that extra input in the process.argv array. 
+___
+**process.argv**
+
+The one piece of the process object that we'll worry about right now is the .argv property. Proces.argv holds an array containing the command-line arguments passed in when a Node process is launched. When you tell Node to execute a script like greeter.js, XXX: CHANGE NAME, if you type anything after the command `node greeter.js`, Node will save that extra input in the process.argv array. 
 
 To try this out, exit the Node REPL and create a new testfile called testfile.js. In it, enter `console.log(process.argv)`, and save it. From the command line, tell Node to run this program: 
 
 ![Screenshot of terminal. Command entered: "node testfile.js". Output described below.](https://github.com/bkager/Node-cookbook/assets/68086185/962480c3-08e9-48a6-9e2c-f00f878e7735)
 
-Your program prints out the process.arv array. This array always contains at least one value, which is the path to the Node installation on your machine. If you console.log process.argv from inside the Node REPL, it will return an array containing this. If you console.log process.env from inside a program you've written and run with node, the second value in it will be the path to the program, which you can see it outputting here from my test file. 
+Your program prints out the process.arv array. This array always contains at least one value, which is the path to the Node installation on your machine. If you console.log process.argv from inside the Node REPL, it will return an array containing just this. If you console.log process.env from inside a program you've written and run with node, the second value will be the path to the program, which you can see it outputting here from my test file. 
 
 Here's where process.argv gets fun. If we add any other values on the command line when we run our program, those values will also be saved in process.argv. Run testfile.js again and add a few random words after the `node testfile.js` command:
 
 ![Screenshot of terminal. Command entered: "node testfile.js parrot 'beach ball' shiny". Output described below.](https://github.com/bkager/Node-cookbook/assets/68086185/e5c82eba-baad-43d2-9972-8d012a5e286c)
 
-Our process.argv array now contains the three new arguments that I added when running the program. We've logged these values from inside our program, meaning that they're available inside our code thanks to the process.argv array. We can grab those values out of process .argv and do whatever we want with them. 
+Our process.argv array now contains the three new arguments that I added when running the program. We've logged these values from inside our program, meaning that they're available inside our code thanks to the process.argv array. We can grab those values out of process.argv and do whatever we want with them. 
 
 To try this out, create a new file called `name-greeter.js` and enter the code at the top of the page in it. Save it, and from the command line, tell Node to run your program, adding a name after the command: 
 
@@ -72,14 +76,19 @@ if (name === "Dave") {
 
 ![Screenshot of terminal. Command: "node name-greeter.js Britta". Output: "Hiya, Britta!". Command: "node name-greeter.js Dave. Output: "You again?"](https://github.com/bkager/Node-cookbook/assets/68086185/db38099e-63a9-4b14-a16d-23af41b913d3)
 
-
-
-
-
-
+So there you have it: a way to pass an argument into your script, and a basic understanding of the process module. 
 ____
-Do events count as a separate thing?
-What's the technical definition of a script?
+
+### Bonus Recipes
+
+* Create a program that accepts a number argument and outputs the number times two.
+* Create a program that accepts a simple description of the weather ("rainy", "sunny", etc.) and outputs some advice on what to wear today based on it.
+* Create a program that accepts any number of command line arguments and saves them as values in an object with numbers as keys.
+
+
+
+
+
 Is the process object 
 Discuss Node startup and how a process object is created
 Define 'the current Node process'
