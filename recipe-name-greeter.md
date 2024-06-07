@@ -22,7 +22,7 @@ This program will show you how to add an argument when you invoke your Autogreet
 * The Node process module
 ___
 
-If you followed recipe XXXNUMBER, you created a program that outputs random greetings to the command line when you run it in Node. It's a very limited program, though, and can't respond to input. You just invoke it, it does its thing, you get some random output from a pre-programmed list of possibilities. We'd like to be able to pass a program arguments that it can then use in its code, just as we can pass arguments into functions. In this case, we could pass in a name and have the program return a personalized greeting. 
+If you followed recipe XXXNUMBER, you created a program that outputs random greetings to the command line when you run it in Node. It's a very limited program, though, and can't respond to input. You just invoke it, it does its thing, you get some random output from a pre-programmed list of possibilities. We'd like to be able to pass arguments to a program  that it can then use in its code, just as we can pass arguments into functions. In this case, we could pass in a name and have the program return a personalized greeting. 
 
 ![Screenshot of a terminal. The command "node name-greeter.js" is entered and the output is "Welcome, Britta!"](https://github.com/bkager/Node-cookbook/assets/68086185/2427dc11-d4a4-4ff2-ae69-1cb07c6a27ee)
 
