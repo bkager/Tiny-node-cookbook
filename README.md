@@ -38,7 +38,7 @@ Questions, suggestions, and corrections are very welcome.
       * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
         * Understand: JavaScript in the Node runtime environment  
     * Node scripts with arguments
-      * Recipe: Greeter by name
+      * [Recipe: Greeter by name] (https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
         * Understand: The process module    
 * Node events: Basics
   * Node and event-driven architecture
