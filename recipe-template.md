@@ -9,16 +9,24 @@ ___
 
 Short overview of recipe
 
-**Understand**
+**Goals for This Recipe**
 * Bullet-point goals here
 
-**You Need**
-* Bullet-point list of necessities; probably don't need this for most recipes
-
+**You Should Already Understand**
+* Bullet-pointed prerequisites
+* Link to previous explanations wherever possible
 ___
 
 Instructions and discussion go here
 
+**Use bold for subheadings**
+
 ### Bonus recipes
 
 * Bonus recipes in bullet points here
+
+___
+
+### Up Next
+
+Link to next recipe or section
