@@ -51,6 +51,7 @@ Questions, suggestions, and corrections are very welcome.
 * Async in Node
 * HTTP requests in Node
 * Creating a server in Node: Basics
+   * Recipe: Do-nothing Server    
 
 **Beyond the Basics**
 
