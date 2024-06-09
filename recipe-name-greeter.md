@@ -1,4 +1,4 @@
-# Name Greeter
+# Greeter + Names
 
 ````
 // This is a simple JavaScript program that accepts a name as an argument and outputs a greeting to the named person. 
