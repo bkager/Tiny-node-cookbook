@@ -23,7 +23,7 @@ Questions, suggestions, and corrections are very welcome.
 
 ## Table of Contents
 
-**Introduction**
+**1) Introduction**
 
 * Welcome to Node!
 * How this cookbook is organized
@@ -31,27 +31,31 @@ Questions, suggestions, and corrections are very welcome.
 **Node Basics: A Minimal Introduction to Some Important Parts**
 
 * Node on the command line: Basics
-    * The Node REPL
+   * The Node REPL
       * Recipe: Random number generator
-         * Understand: Writing simple JavaScript code in the Node REPL
-    * Node scripts
+         * Learn: Writing simple JavaScript code in the Node REPL
+   * Node scripts
       * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
-        * Understand: JavaScript in the Node runtime environment  
-    * Node scripts with arguments
+        * Learn: Writing a simple program, JavaScript in the Node runtime environment  
       * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
-        * Understand: The process module    
+        * Learn: The process module, passing arguments to a script    
 * Node events: Basics
   * Node and event-driven architecture
   * The events module
   * The EventEmitter class
   *  Recipe:
-     * Understand:  
 * Node filesystem operations: Basics
+   * Recipe:
+
 * Node streams and buffers: Basics
 * Async in Node
 * HTTP requests in Node
 * Creating a server in Node: Basics
-   * Recipe: Do-nothing Server    
+   * Basic Node Servers intro
+   * Recipe: Do-nothing Server
+      * Create a server and set it to listen on a port   
+   * Recipe: Cat Server
+      * Inspecting an incoming request       
 
 **Beyond the Basics**
 
@@ -68,6 +72,6 @@ A collection of resources which I've found useful.
 
 ## License
 
-The text of this book is licensed under a Creative Commons license (CC BY-NC-ND 4.0) which allows you to copy and redistribute the material in any format you like, but not create derivative works or use it for commerical purposes.
+The text of this book is licensed under a Creative Commons license (CC BY-NC-ND 4.0), which allows you to copy and redistribute the material in any format you like, but not create derivative works or use it for commerical purposes.
 
 The code samples are licensed under an MIT license, which allows you to copy, redistribute, alter, and otherwise do what you like with the code for commercial or non-commercial purposes. 
