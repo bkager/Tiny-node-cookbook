@@ -35,7 +35,7 @@ Questions, suggestions, and corrections are very welcome.
 * What's in this section
 * Node on the command line: Basics
 
-#### The Node REPL
+#### The Node shell
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator)
     * Learn: Writing simple JavaScript code in the Node REPL
   
