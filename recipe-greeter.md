@@ -23,7 +23,7 @@ This minimal program will show you how to write JavaScript in a file from the co
 * Running your file in Node
 * Node is just a different environment for JavaScript
 
-**You Need**
+**You Should Already Understand**
 * Very basic comfort with using a terminal and simple command line operations
 * A command line text editor
 
