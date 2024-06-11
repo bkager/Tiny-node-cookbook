@@ -18,12 +18,12 @@ ___
 
 This minimal program will show you how to write JavaScript in a file from the command line, and then execute the code in that file in Node from the command line. 
 
-**Goals for this Recipe**
+**Goals for this recipe**
 * Writing a simple JavaScript program in a file
 * Running your file in Node
 * Node is just a different environment for JavaScript
 
-**You Should Already Understand**
+**You should already understand**
 * Very basic comfort with using a terminal and simple command line operations
 * A command line text editor
 
