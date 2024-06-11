@@ -70,7 +70,7 @@ Questions, suggestions, and corrections are very welcome.
 
 ## Useful Resources
 
-A collection of resources which I've found useful. 
+* [Useful Resources for Learning Node](https://github.com/bkager/Node-cookbook/blob/main/resources.md)
 
 ## License
 
