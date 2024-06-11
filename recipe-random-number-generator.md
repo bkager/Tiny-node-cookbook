@@ -55,17 +55,27 @@ If you're seeing three dots and you didn't mean for that to happen, type `.break
 
 You can also enter code by opening the editor by typing `.editor`. This gives you a space to enter multiple lines of code.
 
+![Screenshot illustrating this](https://github.com/bkager/Node-cookbook/assets/68086185/1d3427e3-b75e-4019-835d-511f50e30c4c)
 
+When you're done entering code, press `ctrl+D` to run it all at once. 
 
+**Random Number Generator**
 
+With or without opening the editor, enter the recipe code at the top of this page and run it. It's a definition for a simple function which will return one or multiple random numbers. It accepts two arguments: a max number (meaning it will generate numbers between 1 and this number), and a quantity of random numbers to return, which defaults to 1. 
 
+Your function definition for `random` is now saved to the memory for this Node session. Call the function and pass in a max number and (optionally) a quantity of random numbers to generate. 
 
+![Screenshow showing the function called twice. With the optional parameter it returns an array of random numbers; without it it returns a single number](https://github.com/bkager/Node-cookbook/assets/68086185/daed594d-14db-4b75-974d-78b4f53417d7)
 
+**Summary**
 
+And that's the Node REPL! You're not going to write complicated code in it, and it's a rather clunky editing environment, but it's handy for trying simple things out. 
+
+However, the real takeaway from this recipe is that you've just done the single most important thing that Node can do: run JavaScript outside of a web browser. Until Node was released in 2009, JavaScript code only worked inside of browsers, since the browser was what held the software that interpreted and ran JavaScript code. Node made all the necessary parts to run JavaScript available outside the browser, giving us the freedom to use JavaScript for things other than creating the visible parts of websites and making it a much more flexible and useful programming language. 
 
 ### Bonus recipes
 
-* Bonus recipes in bullet points here
+* Tinker in the Node REPL on your own!
 
 ### Resources
 
@@ -74,4 +84,4 @@ ___
 
 ### Up Next
 
-Link to next recipe or section
+
