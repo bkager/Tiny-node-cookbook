@@ -19,7 +19,7 @@ const random = (max, howManyNums = 1) => {
 
 ___
 
-This recipe doesn't create a full program, just a very simple function to use in trying out the Node shell, aka the Node REPL. REPL stands for "Read-eval-print-loop", and it's a command-line program where you can write JavaScript code and immediately run it. If you have enough practice with JavaScript to be reading this cookbook, you've almost certainly used JavaScript in some sort of REPL before. The Node REPL is a great way to test small things out quickly. 
+This recipe doesn't create a full program, just a very simple function to use in trying out the Node shell, aka the Node REPL. REPL stands for "Read-eval-print-loop", and it's a command-line program where you can write and run JavaScript code line by line. If you have enough practice with JavaScript to be reading this cookbook, you've almost certainly used JavaScript in some sort of REPL before. The Node REPL is a great way to test small things out quickly. 
 
 **Goals for this recipe**
 * Try out the Node shell
@@ -39,6 +39,7 @@ To open the Node REPL, type `node`.
 ![Screenshot of instructions carried out. You should get a welcome message, a notice to type ".help" for info, and a prompt.](https://github.com/bkager/Node-cookbook/assets/68086185/2daba6fe-5e56-4ec7-adbb-d42e65849a4b)
 
 **Coding in the REPL**
+
 You now have access to the Node environment. At the prompt, you can write JavaScript code, and it will execute when you press enter. Try it out by assigning a few variables and conducting some simple operations. For example, try typing `const num1 = 10` and enter; then `const num2 = 5` and enter; then `num1 + num2`. It should output 15. This is because the REPL saves your variables in memory for the length of your session. Once you exit the REPL, though, they're removed from memory and you'll start afresh next time. 
 
 ![Screenshot of above instructions carried out](https://github.com/bkager/Node-cookbook/assets/68086185/1df77df6-6837-49ec-a252-f27e8f054e77)
