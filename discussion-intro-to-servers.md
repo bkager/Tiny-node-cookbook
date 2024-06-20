@@ -1,0 +1,1 @@
+I recommend the tutorial ["Anatomy of an HTTP Transaction"](https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction) in the official Node docs, which is great but not necessarily easy to find if you're the sort of beginner who needs it. 
