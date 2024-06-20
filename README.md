@@ -47,14 +47,15 @@ Questions, suggestions, and corrections are very welcome.
 #### Node events: Basics
   * Node and event-driven architecture
   * The events module
+  * Modules, classes, and interfaces as concepts
   * The EventEmitter class
 #### Node filesystem operations: Basics
 #### Node streams and buffers: Basics
 #### Async in Node
 #### HTTP requests in Node
 #### Creating a server in Node: Basics
-   * Basic Node Servers intro
-   * Recipe: Do-nothing Server
+   * [Basic Node Servers intro](https://github.com/bkager/Node-cookbook/blob/main/discussion-intro-to-servers.md)
+   * [Recipe: Do-nothing Server](https://github.com/bkager/Node-cookbook/blob/main/recipe-do-nothing-server.md)
       * Create a server and set it to listen on a port   
    * Recipe: Cat Server
       * Inspecting an incoming request       
