@@ -90,6 +90,7 @@ To stop your server, press `ctrl + C`.
 ### Bonus recipes
 
 **Another Way to Check That Your Server Is Listening**
+
 You can get confirmation that your server is working in another way, too. Open a new tab in a web browser and type `http://localhost:3000/` in the address bar. Your browser (acting as a client) opens a connection to port 3000 on your machine. The server notices this and sends back a confirmation that it's listening. This is entirely separate from the confirmation message you've coded it to output when it starts listening; the browser and the server are just waving at each other to confirm they can establish a connection. Only then does your browser send an actual http request. (In this case, it's just asking the server to send it whatever default webpage, etc. the server delivers if you go to that address, just the way your browser expects to be sent the main page of wikipedia if you go to the address https://www.wikipedia.org/.)
 
 Because the browser knows that the server is listening and they have a connection, it will wait for the server to send back a response. However, you haven't given your server any way to respond to the browser yet. You'll see the browser sadly loading and loading and loading before finally timing out. It can see that the lights are on, but no one is coming to the door. 
