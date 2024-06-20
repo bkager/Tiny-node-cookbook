@@ -97,6 +97,20 @@ Because the browser knows that the server is listening and they have a connectio
 
 For comparison, go to `http://localhost:3001/`, a port you *don't* have a server listening on. You'll see the browser give up immediately and tell you it can't connect, since there wasn't a server there at all to get its hopes up.
 
+**Another Server**
+
+Start a new file and create a new server. Give it a different name. Have it log a different message when it starts listening. For example: 
+
+```
+const http = require("http");
+
+const soupServer = http.createServer();
+
+soupServer.listen(3000, () => console.log("Server is listening on port 3000. Wouldn't you love some hot soup?"));
+
+```
+
+
 ___
 
 ### Up Next
