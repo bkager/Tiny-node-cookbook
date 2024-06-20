@@ -95,7 +95,7 @@ You can get confirmation that your server is working in another way, too. Open a
 
 Because the browser knows that the server is listening and they have a connection, it will wait for the server to send back a response. However, you haven't given your server any way to respond to the browser yet. You'll see the browser sadly loading and loading and loading before finally timing out. It can see that the lights are on, but no one is coming to the door. 
 
-For comparison, go to `http://localhost:3001/`, a port you *don't* have a server listening on. You'll see the browser give up immediately and tell you it can't connect, since there wasn't a server there at all.
+For comparison, go to `http://localhost:3001/`, a port you *don't* have a server listening on. You'll see the browser give up immediately and tell you it can't connect, since there wasn't a server there at all to get its hopes up.
 
 ___
 
