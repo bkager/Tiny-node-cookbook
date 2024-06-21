@@ -36,17 +36,22 @@ Questions, suggestions, and corrections are very welcome.
 * Node on the command line: Basics
 
 #### The Node shell
-  * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator)
+  * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
 #### Node scripts
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment  
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
-    * Learn: The process module, passing arguments to a script    
+    * Learn: The process module, passing arguments to a script
+  * Recipe: Modules in Node
+  * Recipe: Using someone else's module
+  * Recipe: Publishing Greeter
+  * Recipe: The console in Node
 #### Node events: Basics
   * Node and event-driven architecture
   * The events module
+  * The Node docs: our first module
   * Modules, classes, and interfaces as concepts
   * The EventEmitter class
 #### Node filesystem operations: Basics
