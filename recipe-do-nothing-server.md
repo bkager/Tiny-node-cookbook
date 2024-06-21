@@ -106,7 +106,7 @@ To stop your server, press `ctrl + C`.
 
 **Another Way to Check That Your Server Is Listening**
 
-You can get confirmation that your server is working in another way, too. Open a new tab in a web browser and type `http://localhost:3000/` in the address bar. Your browser (acting as a client) opens a connection to port 3000 on your machine. The server notices this and sends back a confirmation that it's listening. This is entirely separate from the confirmation message you've coded it to output when it starts listening; the browser and the server are just waving at each other to confirm they can establish a connection. Only then does your browser send an actual http request. (In this case, it's just asking the server to send it whatever default webpage, etc. the server delivers if you go to that address, just the way your browser expects to be sent the main page of wikipedia if you go to the address https://www.wikipedia.org/.)
+You can get confirmation that your server is working in another way, too. Open a new tab in a web browser and type `http://localhost:3000/` in the address bar. Your browser (acting as a client) opens a connection to port 3000 on your machine. The server notices this and sends back a confirmation that it's listening. This has nothing to do with the human-readable confirmation message you've coded it to output when it starts listening; the browser and the server are just waving at each other to confirm they can establish a connection. Only then does your browser send an actual http request. (In this case, it's just asking the server to send it whatever default webpage, etc. the server delivers if you go to that address, just the way your browser expects to be sent the main page of wikipedia if you go to the address https://www.wikipedia.org/.)
 
 Because the browser knows that the server is listening and they have a connection, it will wait for the server to send back a response. However, you haven't given your server any way to respond to the browser yet. You'll see the browser sadly loading and loading and loading before finally timing out. It can see that the lights are on, but no one is coming to the door. 
 
@@ -114,14 +114,14 @@ For comparison, go to `http://localhost:3001/`, a port you *don't* have a server
 
 **Another Server**
 
-Start a new file and create a new server. Give it a different name. Have it log a different message when it starts listening. For example: 
+Start a new file and create a new server. Give it a different name. Have it listen on a different port and log a different message when it starts listening. For example: 
 
 ```
 const http = require("http");
 
 const soupServer = http.createServer();
 
-soupServer.listen(3000, () => console.log("Server is listening on port 3000. Wouldn't you love some hot soup?"));
+soupServer.listen(3001, () => console.log("Server is listening on port 3000. Wouldn't you love some hot soup?"));
 
 ```
 
