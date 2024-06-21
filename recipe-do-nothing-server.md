@@ -61,6 +61,8 @@ const server = http.createServer();
 ```
 You now have a server, and you can call all the methods/properties of the Server interface on it.
 
+**ADD: look at return value of this function in the docs**
+
 **Setting the Server to Listen**
 
 The only server method you need right now is `server.listen()`, which tells your server instance to start listening for incoming requests on a port. Add the line `server.listen()` to your file. Note that `server` here means your specific server instance, the one you created and saved to the `server` variable. If you named it something else, like `uselessServer`, you would type `uselessServer.listen()`.
