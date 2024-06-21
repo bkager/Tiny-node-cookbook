@@ -53,7 +53,7 @@ Run it a few more times and get different outputs from the random greeting gener
 
 There's nothing special about command line text editors except convenience--you're already in a terminal, they're in a terminal, how handy. But you could just as well open your JavaScript file in TextEdit or some other editing program, write in it there, save it, and go back to the command line to run it in Node. 
 
-Notice that this program doesn't take any input--you can't, for example, give it a person's name when you run it to have it greet them specifically. We'll add that in the next recipe, and look at the Node process module at the same time. 
+Notice that this program doesn't take any input--you can't, for example, give it a person's name and have it greet them specifically. We'll add that in the next recipe, and look at the Node process module at the same time. 
 
 
 ### Bonus recipes
