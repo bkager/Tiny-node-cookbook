@@ -58,13 +58,27 @@ Questions, suggestions, and corrections are very welcome.
 #### Node streams and buffers: Basics
 #### Async in Node
 #### HTTP requests in Node
+   * HTTP requests/responses: the basics
 #### Creating a server in Node: Basics
    * [Basic Node Servers intro](https://github.com/bkager/Node-cookbook/blob/main/discussion-intro-to-servers.md)
      * What clients and servers are, the basics of http requests, and why Node is often used to create servers.
    * [Recipe: Do-nothing Server](https://github.com/bkager/Node-cookbook/blob/main/recipe-do-nothing-server.md)
       * Create a server and set it to listen on a port   
-   * Recipe: Cat Server
-      * Inspecting an incoming request       
+   * Recipe: Cat Server 1
+      * Inspecting an incoming request
+   * Recipe: Cat Server 1 alternate syntax
+      * Requests as events, the request handler as an event handler, and an alternate way to set up a server
+   * Recipe: Cat Server 2
+      * Sending back a response
+   * Recipe: Cat Server 3
+      * Handling requests to different paths
+   * Recipe: Cat Server 4
+      * Request bodies
+   * Recipes to figure out
+      * POST requests
+      * DELETE requests
+      * PUT requests
+      * Returning data
 
 ## Beyond the Basics
 
