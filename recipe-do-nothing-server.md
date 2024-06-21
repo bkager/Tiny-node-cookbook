@@ -41,17 +41,17 @@ Glance over the documentation page for the [http module](https://nodejs.org/docs
 
 **The Server interface**
 
-One thing that you'll find on the docs page for this module is a section headed "Class: http.Server". This is Server, one of several interfaces that the http module provides. Nested under it are the various methods and properties belonging to the Server interface, and a list of the sort of events it emits. XXXRemember, interfaces are just patterns, which you can use to create objects which have the same methods, properties, etc. as the original.
+One thing that you'll find on the docs page for this module is a section headed "Class: http.Server". This is Server, one of several interfaces that the http module provides. Nested under it are the various methods and properties belonging to the Server interface, and a list of the sort of events it emits. **XXXRemember, interfaces are just patterns, which you can use to create objects which have the same methods, properties, etc. as the original.XXX**
 
 A Node server is an object. That object is an instance of the Server interface. When you create a server in Node, you're setting up an object which is patterned after Server and has access to all the stuff you see nested under "Class: http.Server" in the docs. 
 
 **Creating the Server**
 
-The first thing you need to do is create a server object. To do that, you need a method from the top level of the http module, `http.createServer()`. If you scroll to the bottom of the list of contents in the http docs, under the documentation for the interfaces, you'll find it down there.
+The first thing you need to do is create a server object. To do that, you need a method from the top level of the http module, `http.createServer()`. If you look at the docs and scroll to the bottom of the list of contents, under the documentation for the interfaces, you'll find it down there.
 
-The `http.createServer` method is listed as `http.createServer([options][, requestListener])`. This shows that it can take two arguments, both of them optional. You're not going to include any arguments for the moment. 
+The `http.createServer` method is listed as `http.createServer([options][, requestListener])`. This shows that it can take two arguments, both of them optional. You're not going to include any arguments in this recipe. 
 
-In your `server.js` file, under the module import, type `const server = http.createServer()`. This creates a server--again, an instance of the Server interface--and saves it to the variable `server` for later use. 
+In your `server.js` file, under the module import, type `const server = http.createServer()`. This creates a server and saves it to the variable `server` for later use. 
 
 ```
 const http = require("http");
@@ -59,11 +59,11 @@ const http = require("http");
 const server = http.createServer();
 
 ```
-Since your server is an instance of Server, glance over the documentation for the Server interface. Servers are event emitters, and there's a list of the types of events they can emit. There's also a number of methods and properties you can call on your server object. 
+You now have a server, and you can call all the methods/properties of the Server interface on it.
 
 **Setting the Server to Listen**
 
-The only server method you need right now is `server.listen()`, which tells your server instance to start listening for incoming requests on a port. Add the line `server.listen()` to your file. Note that `server` here means your specific server instance, the one you created and saved to the `server` variable.
+The only server method you need right now is `server.listen()`, which tells your server instance to start listening for incoming requests on a port. Add the line `server.listen()` to your file. Note that `server` here means your specific server instance, the one you created and saved to the `server` variable. If you named it something else, like `uselessServer`, you would type `uselessServer.listen()`.
 
 ```
 const http = require("http");
