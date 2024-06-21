@@ -60,6 +60,7 @@ Questions, suggestions, and corrections are very welcome.
 #### HTTP requests in Node
 #### Creating a server in Node: Basics
    * [Basic Node Servers intro](https://github.com/bkager/Node-cookbook/blob/main/discussion-intro-to-servers.md)
+     * What clients and servers are, the basics of http requests, and why Node is often used to create servers.
    * [Recipe: Do-nothing Server](https://github.com/bkager/Node-cookbook/blob/main/recipe-do-nothing-server.md)
       * Create a server and set it to listen on a port   
    * Recipe: Cat Server
