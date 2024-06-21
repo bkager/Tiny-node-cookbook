@@ -24,7 +24,7 @@ To recap: a server is a program that waits for http requests to arrive at a spec
 
 In this recipe you're going to write a bit of code to set up a server and tell it to listen to a port, but that's it--your server is not going to do much other than exist. You'll add code for the server to actually respond to requests in future recipes. 
 
-The basic server in this and the next few lessons is written in basic, vanilla Node, without the help of other tools. There's a very popular framework called Express.js which makes creating servers in Node easier. It's worth seeing how to do it with basic Node, both because you'll still see people write Node servers without Express, and because Express itself still creates the sort of code you'll write here, it just abstracts a lot of the details for you. Also you'll appreciate Express a lot more after this. 
+The basic server in this and the next few lessons is written in basic, vanilla Node, without the help of other tools. There's a very popular framework called Express.js which makes creating servers in Node easier, but we'll worry about that later.
 
 **Setup**
 
