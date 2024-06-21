@@ -20,9 +20,11 @@ This recipe shows you how to create an absolutely minimal server in vanilla Node
 
 ___
 
-A server is a program that waits for requests to arrive at a specific port on a computer, and then does something in response. **(XXX EXPLAIN PORTS)**. You write a bit of code that creates a server, and then you tell it to listen to a particular port. If a request arrives to that port, the operating system knows that the server is interested and passes the request to it.
+To recap: a server is a program that waits for http requests to arrive at a specific port on a computer, and then does something in response. If you're learning Node in the first place, there's a very good chance that creating a server is the main thing you want to do with it. You may want a server to respond to other users trying to connect to your app over the web, or you may want one to handle requests from the visible, frontend part of your app, which needs a server to send it things like images and data. Node has built-in functionality that makes creating a server very easy.
 
-In this recipe you're going to set up a server and tell it to listen to a port, but that's it--your server is not going to do much other than exist. You'll add code for the server to actually respond to requests in future recipes. 
+In this recipe you're going to write a bit of code to set up a server and tell it to listen to a port, but that's it--your server is not going to do much other than exist. You'll add code for the server to actually respond to requests in future recipes. 
+
+The basic server in this and the next few lessons is written in basic, vanilla Node, without the help of other tools. There's a very popular framework called Express.js which makes creating servers in Node easier. It's worth seeing how to do it with basic Node, both because you'll still see people write Node servers without Express, and because Express itself still creates the sort of code you'll write here, it just abstracts a lot of the details for you. Also you'll appreciate Express a lot more after this. 
 
 **Setup**
 
