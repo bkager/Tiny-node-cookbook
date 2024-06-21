@@ -34,13 +34,24 @@ To create a server, you're going to be using methods from the Node `http` module
 
 The `http` module contains various methods, properties, and classes for dealing with http requests as both a client and as a server. For now, you need two methods, one to create your server and one to tell it to listen on a port. 
 
+Glance over the documentation page for the [http module](https://nodejs.org/docs/latest/api/http.html).
+
+
+
+
+**The Server interface**
+
+One thing that you'll find on the docs page for this module is a section headed "Class: http.Server". This is Server, one of several interfaces that the http module provides. Nested under it are the various methods and properties belonging to the Server interface, and a list of the sort of events it emits. XXXRemember, interfaces are just patterns, which you can use to create objects which have the same methods, properties, etc. as the original.
+
+A Node server is an object. That object is an instance of the Server interface. When you create a server in Node, you're setting up an object which is patterned after Server and has access to all the stuff you see nested under "Class: http.Server" in the docs. 
+
 **Creating the Server**
 
-A Node server is an object--it's an instance of the Server interface, which is part of the http module. The top level of the http module also contains a method, `http.createServer()`. Look over the documentation for the [http module](https://nodejs.org/docs/latest/api/http.html). You can find the documentation for the Server interface in the list of the module's contents at Class: http.Server. Then scroll to the botton of the list, under the documentation for the interfaces, to see the properties and methods that exist at the top level of `http`.
+The first thing you need to do is create a server object. To do that, you need a method from the top level of the http module, `http.createServer()`. If you scroll to the bottom of the list of contents in the http docs, under the documentation for the interfaces, you'll find it down there.
 
-The `http.createServer` method is listed as `http.createServer([options][, requestListener])`, showing that it can take two arguments, both of them optional. You're not going to include any arguments for the moment. 
+The `http.createServer` method is listed as `http.createServer([options][, requestListener])`. This shows that it can take two arguments, both of them optional. You're not going to include any arguments for the moment. 
 
-In your `server.js` file, under the module import, type `const server = http.createServer()`. This creates a server and saves it to the variable `server` for later use. 
+In your `server.js` file, under the module import, type `const server = http.createServer()`. This creates a server--again, an instance of the Server interface--and saves it to the variable `server` for later use. 
 
 ```
 const http = require("http");
