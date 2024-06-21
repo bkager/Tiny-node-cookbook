@@ -21,10 +21,8 @@ This recipe gives your basic server the ability to do something with an incoming
 * Inspect an incoming http request
 * Understand the IncomingRequest class
 
-  
-___
-
-
+ &nbsp;
+ 
 # Introduction
 
 In the last recipe, you created a server and set it to listen on a port. If you did the bonus recipe, you also saw that your browser could try to open a webpage at that port, and was very confused that the server didn't do anything. In this recipe, we're going to give the server the ability to look at an incoming http request and do something with it, although it still won't respond to the browser. 
