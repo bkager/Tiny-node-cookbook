@@ -50,7 +50,7 @@ Here's where process.argv gets fun. If we add any other values on the command li
 
 ![Screenshot of terminal. Command entered: "node testfile.js parrot 'beach ball' shiny". Output described below.](https://github.com/bkager/Node-cookbook/assets/68086185/e5c82eba-baad-43d2-9972-8d012a5e286c)
 
-Our process.argv array now contains the three new arguments that I added when running the program. We've logged these values from inside our program, meaning that they're available inside our code thanks to the process.argv array. We can grab those values out of process.argv and do whatever we want with them. 
+Our process.argv array now contains the three new arguments that I added when running the program. We've logged these values from inside our program, meaning that they're available inside our code thanks to the process.argv array. In our code, we can grab those values out of process.argv and do whatever we want with them. 
 
 To try this out, create a new file called `name-greeter.js` and enter the code at the top of the page in it. Save it, and from the command line, tell Node to run your program, adding a name after the command: 
 
