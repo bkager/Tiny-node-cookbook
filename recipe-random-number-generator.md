@@ -72,7 +72,7 @@ Your function definition for `random` is now saved to the memory for this Node s
 
 And that's the Node REPL! You're not going to write complicated code in it, and it's a rather clunky editing environment, but it's handy for trying simple things out. 
 
-However, the real takeaway from this recipe is that you've just done the single most important thing that Node can do: run JavaScript outside of a web browser. Until Node was released in 2009, JavaScript code only worked inside of browsers, since the browser was what held the software that interpreted and ran JavaScript code. Node made all the necessary parts to run JavaScript available outside the browser, giving us the freedom to use JavaScript for things other than creating the visible parts of websites and making it a much more flexible and useful programming language. 
+However, the real takeaway from this recipe is that you've just done the single most important thing that Node can do: run JavaScript outside of a web browser. Until Node was released in 2009, JavaScript code only worked inside of browsers, since the browser was what held the software that interpreted and ran JavaScript code. Node recreated all the necessary parts to run JavaScript elsewhere, giving us the freedom to use JavaScript for things other than creating the visible parts of websites, and making it a much more flexible and useful programming language. 
 
 ### Bonus recipes
 
