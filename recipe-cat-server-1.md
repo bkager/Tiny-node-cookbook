@@ -73,7 +73,7 @@ When an http request arrives at the server, Node reformats it into a JavaScript 
  
 ## Logging the Request Object
 
-The request object contains a huge amount of data. To see what this looks like, modify cat-server.js so that when a request comes in, the server logs the request object as output. Also, go ahead and shorten the parameters 'request' and 'response' to 'req' and 'res' if you like. 
+The request object contains a lot of data. To see what this looks like, modify cat-server.js so that when a request comes in, the server logs the request object as output. Also, go ahead and shorten the parameters 'request' and 'response' to 'req' and 'res' if you like. 
       
 ```
 const http = require("http");
@@ -89,7 +89,7 @@ Run your server code from the command line (`node cat-server.js`). You'll see yo
 
 Now, open a browser and go to `http://localhost:3000/`. Your browser is acting as a client and trying to connect to your server. Just by trying to connect to that address, it has sent your server a basic http request. A server will usually send back some sort of default resources, like the front page of a website. No joy, browser! Your server still can't send a response back. However, back on the command line, your server program shows that it has received the browser's request by logging the request object to the command line. 
 
-> Side note: If you've played around in the browser dev tools before, you may be wondering why the console.log statement prints to the command line instead of to the console in the browser, where you've probably seen output before. The answer is that the Node runtime environment, which is where cat-server.js is running, sends output to the command line, while JavaScript code that's running in the browser runtime environment prints console.log statements to the browser console. The browser and Node are two different environments which are trying to communicate through http requests. Right now, the browser console doesn't have access to anything that's going on in the Node runtime, because the server hasn't sent anything from Node back to the browser yet. In the next recipe we'll change this.
+> Side note: If you've played around in the browser dev tools before, you may be wondering why the console.log statement prints to the command line instead of to the console in the browser, where you've probably seen output before. The answer is that the browser and Node are two different programs on your computer. This is easy to lose sight of if you've looked at code projects that include both frontend and backend JavaScript in the same repo, but it's just like putting a photo and a word document in the same computer folder--they may be housed together, but they're two different things that will open in different programs. The Node runtime environment, which is where cat-server.js is running, sends output to the command line, while JavaScript code that's running in the browser runtime environment prints console.log statements to the browser console. Code running in these different environments can communicate through http requests, but right now, the browser console doesn't have access to anything that's going on in the Node runtime, because the server hasn't sent anything from Node back to the browser yet. In the next recipe we'll change this.
 > **XXX ADD ILLUSTRATION?**
 
  &nbsp;
@@ -100,7 +100,7 @@ Let's look at the request object that your server logged. That's a lot of data. 
 
 Remember that Node takes the arriving http request--which might have been created by an app written in a completely different programming language--and shapes it into a JavaScript object. When it formats the request into JavaScript, it makes it an instance of the IncomingMessage class, which is part of the `http` module. This means that the http request object now has all the data sent by the browser in the original http request, plus Node has given it the properties, methods, etc. from the IncomingMessage class in order to make it easier to work with. 
 
-Take a look at the docs for the [IncomingMessage class](https://nodejs.org/docs/latest/api/http.html) on the http module page. The three properties that we care about right now are `message.headers`, `message.method`, and `message.url`. In the list of properties and methods belonging to this class, small 'm' `message` means any instance of the IncomingMessage class, with `message` as a placeholder for whatever you've named your request object. People usually call their IncomingMessage instances `req` when they name them in the parameters of the request handler, so if you follow that convention you'll access these properties in your code by typing `req.headers`, `req.method`, and `req.url`, and that's usually what you'll see in code examples. 
+Take a look at the docs for the [IncomingMessage class](https://nodejs.org/docs/latest/api/http.html) on the http module page. The three properties that we care about right now are `message.headers`, `message.method`, and `message.url`. In the list of properties and methods belonging to this class, small 'm' `message` means any instance of the IncomingMessage class. It's a placeholder for whatever you've named your actual request object. As you've seen, people usually call their IncomingMessage instances `req` when they name them in the parameters of the request handler, so if you follow that convention you'll access these properties in your code by typing `req.headers`, `req.method`, and `req.url`, and that's usually what you'll see in code examples. 
 
 All of these properties help to get us access to useful information from the request object. `message.method` returns the http verb used for the request (GET, POST, etc.). `message.url` returns the path the request was sent to. `message.headers` returns the headers of request object, but formatted into an object that's more user-friendly than the way they appear on the request object itself. 
 
@@ -127,8 +127,8 @@ Great! You now have a working server which is receiving requests and accessing t
 * The `http.createServer()` method can (and usually will) receive a callback called the request handler as an argument.
 * The request handler has two parameters, usually called req and res.
 * When an http request reaches the server, Node formats it as an instance of the IncomingMessage class of the http module.
-* Node then automatically passes this request object to the request handler as its first argument. You can access it inside the request handler as `req`, or whatever you named the first parameter.
-* The request object, as an instance of IncomingMessage, has useful methods and properties on it for handling requests.
+* Node automatically passes this request object to the request handler as its first argument. You can access it inside the request handler as `req`, or whatever you named the first parameter.
+* The request object, as an instance of IncomingMessage, has useful methods and properties for handling requests.
 * Three methods to know for now are `message.headers`, `message.method`, and `message.url`, which you'll usually call on your `req` object as `req.headers`, `req.method`, and `req.url`.
 
   &nbsp;
