@@ -25,7 +25,7 @@ This recipe gives your basic server the ability to do something with an incoming
  
 # Introduction
 
-In the last recipe, you created a server and set it to listen on a port. If you did the bonus recipe, you also saw that your browser could try to open a webpage at that port, but was very confused that the server didn't do anything. In this recipe, we're going to give the server the ability to look at an incoming http request and do something with it, although it still won't respond to the browser. 
+In the last recipe, you created a server and set it to listen on a port. If you did the bonus recipe, you also saw that your browser could try to open a webpage at that port, and could tell a server was listening there, but was confused that there was no reply. In this recipe, we're going to give the server the ability to look at an incoming http request and do something with it, although it still won't respond to the browser. 
 
  &nbsp;
  
@@ -87,9 +87,10 @@ server.listen(3000, () => console.log("Server is listening on port 3000. Meow!")
 
 Run your server code from the command line (`node cat-server.js`). You'll see your 'Server is listening' message again. Everything so far has happened in the Node runtime environment that you're accessing from the command line.
 
-Now, open a browser and go to `http://localhost:3000/`. Your browser is acting as a client and trying to connect to your server. Just by trying to connect, it has sent your server an http request. No joy, browser! The server still can't send a response back. However, back on the command line, your server program shows that it has received the browser's request by logging the request object to the command line. 
+Now, open a browser and go to `http://localhost:3000/`. Your browser is acting as a client and trying to connect to your server. Just by trying to connect to that address, it has sent your server a basic http request. A server will usually send back some sort of default resources, like the front page of a website. No joy, browser! Your server still can't send a response back. However, back on the command line, your server program shows that it has received the browser's request by logging the request object to the command line. 
 
-> Side note: If you've played around in the browser dev tools before, you may be wondering why the console.log statement prints to the command line instead of to the console in the browser, where you've probably seen output before. The answer is that the Node runtime environment, which is where cat-server.js is running, sends output to the command line, while JavaScript code that's running in the browser runtime environment prints console.log statements to the browser console. They're each limited to the console in their own environment. The browser console doesn't currently have access to anything that's going on in the Node runtime, because the server hasn't sent anything from Node back to the browser yet. In the next recipe we'll change this.
+> Side note: If you've played around in the browser dev tools before, you may be wondering why the console.log statement prints to the command line instead of to the console in the browser, where you've probably seen output before. The answer is that the Node runtime environment, which is where cat-server.js is running, sends output to the command line, while JavaScript code that's running in the browser runtime environment prints console.log statements to the browser console. The browser and Node are two different environments which are trying to communicate through http requests. Right now, the browser console doesn't have access to anything that's going on in the Node runtime, because the server hasn't sent anything from Node back to the browser yet. In the next recipe we'll change this.
+> **XXX ADD ILLUSTRATION?**
 
  &nbsp;
  
