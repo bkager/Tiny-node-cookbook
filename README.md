@@ -68,7 +68,7 @@ Questions, suggestions, and corrections are very welcome.
       * Inspecting an incoming request
    * [Recipe: Cat Server 1 alternate syntax](https://github.com/bkager/Node-cookbook/blob/main/recipe-cat-server-1-alternate-syntax.md)
       * Requests as events, the request handler as an event handler, and an alternate way to set up a server
-   * [Recipe: Cat Server 2](https://github.com/bkager/Node-cookbook/new/main)
+   * [Recipe: Cat Server 2](https://github.com/bkager/Node-cookbook/blob/main/recipe-cat-server-2.md)
       * Sending back a response
    * Recipe: Cat Server 3
       * Handling requests to different paths
