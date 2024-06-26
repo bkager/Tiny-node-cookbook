@@ -1,18 +1,14 @@
-# Title
+# Cat Server 2
 
 ```
 Recipe code goes in here
 
 ```
 
-Short overview of recipe
+In this recipe, we give our existing server a way to reply to http requests. 
 
 ## Goals
 * Bullet-point goals here
-
-## You Should Already Understand
-* Bullet-pointed prerequisites
-* Link to previous explanations wherever possible
 
  &nbsp;
  
