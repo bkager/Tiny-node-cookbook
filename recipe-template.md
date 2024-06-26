@@ -5,28 +5,38 @@ Recipe code goes in here
 
 ```
 
-___
-
 Short overview of recipe
 
-**Goals for This Recipe**
+## Goals
 * Bullet-point goals here
 
-**You Should Already Understand**
+## You Should Already Understand
 * Bullet-pointed prerequisites
 * Link to previous explanations wherever possible
-___
 
+ &nbsp;
+ 
+# Introduction
 Instructions and discussion go here
 
-**Use bold for subheadings**
+## Use H2 for subheadings
 
-### Bonus recipes
+
+&nbsp;
+
+## Summary 
+* Bullet points
+
+&nbsp;
+
+___
+
+## Bonus recipes
 
 * Bonus recipes in bullet points here
 
-___
-
+ &nbsp;
+ 
 ### Up Next
 
 Link to next recipe or section
