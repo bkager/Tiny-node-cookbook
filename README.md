@@ -33,6 +33,7 @@ Questions, suggestions, and corrections are very welcome.
 ## Node Basics: A Minimal Introduction to Some Important Bits
 
 * What's in this section
+* The Node environment vs. the browser environment
 * Node on the command line: Basics
 
 #### The Node shell
