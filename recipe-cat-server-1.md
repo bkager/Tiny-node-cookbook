@@ -12,11 +12,9 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => console.log("Server is listening on port 3000. Meow!"));
 
 ```
-
-## Goals
-
 This recipe gives your basic server the ability to do something with an incoming request. 
 
+## Goals
 * Add a request handler to a server
 * Inspect an incoming http request
 * Understand the IncomingRequest class
