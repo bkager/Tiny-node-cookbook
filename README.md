@@ -64,9 +64,9 @@ Questions, suggestions, and corrections are very welcome.
      * What clients and servers are, the basics of http requests, and why Node is often used to create servers.
    * [Recipe: Do-nothing Server](https://github.com/bkager/Node-cookbook/blob/main/recipe-do-nothing-server.md)
       * Create a server and set it to listen on a port   
-   * Recipe: Cat Server 1
+   * [Recipe: Cat Server 1](https://github.com/bkager/Node-cookbook/blob/main/recipe-cat-server-1.md)
       * Inspecting an incoming request
-   * Recipe: Cat Server 1 alternate syntax
+   * [Recipe: Cat Server 1 alternate syntax](https://github.com/bkager/Node-cookbook/blob/main/recipe-cat-server-1-alternate-syntax.md)
       * Requests as events, the request handler as an event handler, and an alternate way to set up a server
    * Recipe: Cat Server 2
       * Sending back a response
