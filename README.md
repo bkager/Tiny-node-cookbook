@@ -14,7 +14,7 @@ This collection of Node recipes--tiny programs meant to demonstrate one or two f
 
 ### Who is this for?
 
-This is aimed very much at beginners to Node, but not beginners to JavaScript. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining rather than underexplaining because there are already plenty of Node tutorials that do the opposite.
+This is aimed at beginners to Node, but not beginners to JavaScript. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining rather than underexplaining because there are already plenty of Node tutorials that do the opposite.
 
 I am assuming that readers understand JavaScript fundamentals, including the structure of the language and how classes/inheritence work; know basic HTML/CSS; are comfortable using an IDE like VSCode; and have some basic familiarity with using a terminal and the command line.
 
