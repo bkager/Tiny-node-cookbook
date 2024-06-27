@@ -35,4 +35,6 @@ It's a good idea to start your own collection of useful code examples as you go.
 
 ## Installing Node
 
-**XXX ADD THIS**
+As with many things Node, I find the offical instructions for installing it to assume more knowledge than you might have right now. If you want very clear, step-by-step directions, Digital Ocean has a nice set of Node tutorials that starts with installation [here](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-and-create-a-local-development-environment-on-macos). Note that you can switch between instructions for different operating systems.
+
+Node's own instructions are [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) and may be fine if you're more experienced. 
