@@ -1,6 +1,7 @@
 # The Tiny Node Cookbook
 ## Tasty, bite-sized recipes for learning Node.js
 
+Node, a popular runtime environment
 I love Node, but it can be hard to get started. The documentation in particular is not the most intuitive for new users, especially if JavaScript is your first programming language. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
 
 This collection of Node recipes--tiny programs meant to demonstrate one or two features each--is intended to demonstrate the basic features of Node in a friendly, incremental way.
@@ -13,9 +14,9 @@ This collection of Node recipes--tiny programs meant to demonstrate one or two f
 
 ### Who is this for?
 
-This is aimed very much at beginners. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining rather than underexplaining because there are already plenty of Node tutorials that do the opposite.
+This is aimed very much at beginners to Node, but not beginners to JavaScript. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining rather than underexplaining because there are already plenty of Node tutorials that do the opposite.
 
-I am assuming that readers understand JavaScript fundamentals, including the structure of the language and how classes/inheritence work, basic HTML/CSS, are comfortable using a development environment like VSCode, and have some very basic familiarity with using a terminal and the command line.
+I am assuming that readers understand JavaScript fundamentals, including the structure of the language and how classes/inheritence work; know basic HTML/CSS; are comfortable using an IDE like VSCode; and have some basic familiarity with using a terminal and the command line.
 
 In many ways, this for myself. I'd like to feel like I have a more comprehensive grasp of Node, and having to explain a topic is a great way to find where you're missing pieces. Here's the stuff I wish had been explained more clearly when I started.
 
@@ -25,15 +26,20 @@ Questions, suggestions, and corrections are very welcome.
 
 ## Introduction
 
-* Welcome to Node!
-* How this cookbook is organized
-* Keeping your own cookbook / notes
-* Installing Node
+* [Introduction](https://github.com/bkager/Node-cookbook/blob/main/introduction.md)
+  * Welcome to Node!
+  * What Node is and does
+  * How this cookbook is organized
+  * Keeping your own cookbook / notes
+  * Installing Node
 
 ## Node Basics: A Minimal Introduction to Some Important Bits
 
 * What's in this section
 * The Node environment vs. the browser environment
+* What's in Node
+  * The V8 Engine, libuv, and bindings
+  * The core Node modules (APIs)
 * Node on the command line: Basics
 
 #### The Node shell
@@ -49,6 +55,8 @@ Questions, suggestions, and corrections are very welcome.
   * Recipe: Using someone else's module
   * Recipe: Publishing Greeter
   * Recipe: The console in Node
+### The Node docs
+  * Reading the Node docs website
 #### Node events: Basics
   * Node and event-driven architecture
   * The events module
@@ -89,6 +97,7 @@ Questions, suggestions, and corrections are very welcome.
 ### Node streams and buffers
 ### Creating a server
 ### Making HTTP requests as a client in Node
+### Debugging
 
 ## Useful Resources
 
