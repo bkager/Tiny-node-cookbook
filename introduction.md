@@ -27,7 +27,7 @@ This book has two main sections:
 
 The first section, Node Basics, introduces some fundamental Node concepts and the Node docs, and then covers a number of the topics you're most likely to need to know at a level of detail that will get you started. This includes using the Node REPL, writing and publishing simple scripts, simple filesystem operations, and creating a server in vanilla Node. Think of this section as a quick start guide to Node. It's going to work best if you go through it in order, since the recipes build on each other. 
 
-The second section, Beyond the Basics, returns to many of these topics in more detail, plus covering other things. It's easier to skip around in this section without missing essentials. 
+The second section, Beyond the Basics, returns to many of these topics in more detail. It's easier to skip around in this section without missing essentials. 
 
 ## Keeping your own cookbook / notes
 
