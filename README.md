@@ -41,36 +41,39 @@ Questions, suggestions, and corrections are very welcome.
   * The core Node modules (APIs)
 
 ### The Node shell
-  * Node on the command line: Basics
+  * The Node shell: Introduction
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
 ### Node scripts and modules
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
-  * Modules in Node
+  * [Modules in Node](https://github.com/bkager/Node-cookbook/blob/main/modules-in-node.md)
     * Learn the three types of modules and how to import/export
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a script
+  * Npm: Introduction
   * Recipe: Using someone else's module
     * Use a third party module in your program
   * Recipe: Publishing Greeter
+    * Publish a package to npm 
   * The console in Node
     
 ### The Node docs
   * Reading the Node docs website
 
 ### Node events: Basics
-  * Node and event-driven architecture
+  * [Node and event-driven architecture](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
+  * Core modules, classes, and interfaces as concepts
   * The events module
-  * The Node docs: our first module
-  * Modules, classes, and interfaces as concepts
+    * The Node docs: our first module
   * The EventEmitter class
 ### Node filesystem operations: Basics
   * Node fs and path modules
 ### Node streams and buffers: Basics
   * Node buffer and stream modules
 ### Async in Node
+  * Handling asynchronous operations
 ### HTTP requests in Node
    * HTTP requests/responses: the basics
 ### Creating a server in Node: Basics
