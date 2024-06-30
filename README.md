@@ -40,35 +40,41 @@ Questions, suggestions, and corrections are very welcome.
 * What's in Node
   * The V8 Engine, libuv, and bindings
   * The core Node modules (APIs)
-* Node on the command line: Basics
 
-#### The Node shell
+### The Node shell
+  * Node on the command line: Basics
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
-#### Node scripts
+### Node scripts and modules
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
-    * Learn: Writing a simple program, JavaScript in the Node runtime environment  
+    * Learn: Writing a simple program, JavaScript in the Node runtime environment
+  * Modules in Node
+    * Learn the three types of modules and how to import/export
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a script
-  * Recipe: Modules in Node
   * Recipe: Using someone else's module
+    * Use a third party module in your program
   * Recipe: Publishing Greeter
-  * Recipe: The console in Node
+  * The console in Node
+    
 ### The Node docs
   * Reading the Node docs website
-#### Node events: Basics
+
+### Node events: Basics
   * Node and event-driven architecture
   * The events module
   * The Node docs: our first module
   * Modules, classes, and interfaces as concepts
   * The EventEmitter class
-#### Node filesystem operations: Basics
-#### Node streams and buffers: Basics
-#### Async in Node
-#### HTTP requests in Node
+### Node filesystem operations: Basics
+  * Node fs and path modules
+### Node streams and buffers: Basics
+  * Node buffer and stream modules
+### Async in Node
+### HTTP requests in Node
    * HTTP requests/responses: the basics
-#### Creating a server in Node: Basics
+### Creating a server in Node: Basics
    * [Basic Node Servers intro](https://github.com/bkager/Node-cookbook/blob/main/discussion-intro-to-servers.md)
      * What clients and servers are, the basics of http requests, and why Node is often used to create servers.
    * [Recipe: Do-nothing Server](https://github.com/bkager/Node-cookbook/blob/main/recipe-do-nothing-server.md)
