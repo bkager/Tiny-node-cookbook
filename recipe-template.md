@@ -36,6 +36,9 @@ ___
 * Bonus recipes in bullet points here
 
  &nbsp;
+
+
+## Resources
  
 ### Up Next
 
