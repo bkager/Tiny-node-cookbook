@@ -57,7 +57,7 @@ Questions, suggestions, and corrections are very welcome.
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a script
-  * Recipe:
+  * Recipe: Goodbyer
     * The console in Node. Node's I/O. Piping it to another program. 
 
 ### IDEs
@@ -68,25 +68,27 @@ Questions, suggestions, and corrections are very welcome.
   * Npm: An introduction to Node's package manager
     * Exploring npm
   * Recipe:
-    * Install, update, and remove a package 
+    * Install, update, and remove a package; basic npm commands
   * Recipe: Publishing Greeter
-    * Publish a package to npm and unpublish it 
+    * Publish a package to npm, install it, use it, and unpublish it 
     
 ### The Node docs
   * Reading the Node docs website
+  * Creating your own docs
+  * The core modules; APIs, classes, and interfaces as concepts
 
 ### Node events: Basics
   * [Node and event-driven architecture](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
-  * The core modules; APIs, classes, and interfaces as concepts
   * The events module
-    * The Node docs: our first module
+    * The Node docs: our first module in depth
   * The EventEmitter class
+  * Recipe: Logging/responding to some events
+### Async in Node
+  * Handling asynchronous operations
 ### Node filesystem operations: Basics
   * Node fs and path modules
 ### Node streams and buffers: Basics
   * Node buffer and stream modules
-### Async in Node
-  * Handling asynchronous operations
 ### HTTP requests in Node
    * HTTP requests/responses: the basics
 ### Creating a server in Node: Basics
