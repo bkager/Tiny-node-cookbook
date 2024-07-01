@@ -52,11 +52,11 @@ Questions, suggestions, and corrections are very welcome.
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
-### Simple Node scripts
+### Simple Node programs
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
-    * Learn: The process module, passing arguments to a script
+    * Learn: The process module, passing arguments to a program
   * Recipe: Goodbyer
     * The console in Node. Node's I/O. Piping it to another program. 
 
@@ -115,12 +115,17 @@ Questions, suggestions, and corrections are very welcome.
 ## Beyond the Basics
 
 ### Node on the command line
+ * More complex scripting
 ### Node events
 ### Node filesystem operations
 ### Node streams and buffers
 ### Creating a server
 ### Making HTTP requests as a client in Node
+### Authentication
 ### Debugging
+### Testing
+### Deploying
+
 
 ## Useful Resources
 
