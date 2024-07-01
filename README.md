@@ -15,7 +15,7 @@ This collection of Node recipes--tiny programs meant to demonstrate one or two f
 
 This is aimed at beginners to Node, but not beginners to JavaScript. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining rather than underexplaining because there are already plenty of Node tutorials that do the opposite.
 
-I am assuming that readers understand JavaScript fundamentals, including the structure of the language and how classes/inheritence work; know basic HTML/CSS; are comfortable using an IDE like VSCode; and have some basic familiarity with using a terminal and the command line.
+I am assuming that readers understand JavaScript fundamentals, including the structure of the language, basics of how classes/inheritence work, asynchronous programming, and the Web APIs available in the browser; know some basic HTML/CSS; are comfortable using an IDE like VSCode; and have some basic familiarity with using a terminal and the command line.
 
 In many ways, this for myself. I'd like to feel like I have a more comprehensive grasp of Node, and having to explain a topic is a great way to find where you're missing pieces. Here's the stuff I wish had been explained more clearly when I started.
 
@@ -35,10 +35,17 @@ Questions, suggestions, and corrections are very welcome.
 ## Node Basics: A Minimal Introduction to Some Important Bits
 
 * What's in this section
+
+### Some preliminary info
 * The Node environment vs. the browser environment
 * What's in Node
   * The V8 Engine, libuv, and bindings
   * The core Node modules (APIs)
+* [Node modules](https://github.com/bkager/Node-cookbook/edit/main/modules-in-node.md)
+  * The core modules, local modules, and 3rd party modules
+* Importing and exporting from modules
+* Node globals
+  * The handful of modules and other objects that are always available. 
 
 ### The Node shell
   * The Node shell: Introduction
@@ -48,23 +55,30 @@ Questions, suggestions, and corrections are very welcome.
 ### Node scripts and modules
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
-  * [Modules in Node](https://github.com/bkager/Node-cookbook/blob/main/modules-in-node.md)
-    * Learn the three types of modules and how to import/export
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a script
-  * Npm: Introduction
-  * Recipe: Using someone else's module
-    * Use a third party module in your program
-  * Recipe: Publishing Greeter
-    * Publish a package to npm 
   * The console in Node
+    * Node's I/O. Piping it to another program. 
+
+### IDEs
+  * VSCode
+    * Switching over to using a modern coding environment
+    
+### NPM
+  * Npm: An introduction to Node's package manager
+    * Exploring npm
+  * Recipe:
+    * Install, update, and remove a package 
+  * Recipe: Publishing Greeter
+    * Publish a package to npm and unpublish it 
     
 ### The Node docs
   * Reading the Node docs website
 
 ### Node events: Basics
   * [Node and event-driven architecture](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
-  * Core modules, classes, and interfaces as concepts
+  *
+  * The core modules; APIs, classes, and interfaces as concepts
   * The events module
     * The Node docs: our first module
   * The EventEmitter class
