@@ -17,7 +17,7 @@ This is aimed at beginners to Node, but not beginners to JavaScript. If you're n
 
 I am assuming that readers understand JavaScript fundamentals, including the structure of the language, basics of how classes/inheritence work, asynchronous programming, and the Web APIs available in the browser; know some basic HTML/CSS; are comfortable using an IDE like VSCode; and have some basic familiarity with using a terminal and the command line.
 
-In many ways, this for myself. I'd like to feel like I have a more comprehensive grasp of Node, and having to explain a topic is a great way to find where you're missing pieces. Here's the stuff I wish had been explained more clearly when I started.
+In many ways, this for myself. Here's the stuff I wish had been explained more clearly when I started.
 
 Questions, suggestions, and corrections are very welcome. 
 
