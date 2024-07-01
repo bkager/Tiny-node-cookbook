@@ -52,13 +52,13 @@ Questions, suggestions, and corrections are very welcome.
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
-### Node scripts and modules
+### Simple Node scripts
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
   * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a script
-  * The console in Node
-    * Node's I/O. Piping it to another program. 
+  * Recipe:
+    * The console in Node. Node's I/O. Piping it to another program. 
 
 ### IDEs
   * VSCode
@@ -77,7 +77,6 @@ Questions, suggestions, and corrections are very welcome.
 
 ### Node events: Basics
   * [Node and event-driven architecture](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
-  *
   * The core modules; APIs, classes, and interfaces as concepts
   * The events module
     * The Node docs: our first module
