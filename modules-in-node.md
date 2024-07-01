@@ -50,8 +50,6 @@ The names of the core modules are:
   
 Even though the core modules are a part of Node, you don't automatically have access to the functionality _in_ them. If you want to use a core module, you usually have to import it into the code you're writing before you can use anything inside it. A few "global" modules (the ones in bold in the list above) are always available and don't have to be imported. 
 
-&nbsp;
-
 ## Your local modules
 
 When you build a JavaScript project of any real complexity, you'll want to split your code up into multiple files. Each of your separate code files is also a "module". Keeping your code modular makes it easier to build, maintain, and understand. However, to get these files to work together, you have to export code from the file where it lives and import it into another where you want to make use of it.
