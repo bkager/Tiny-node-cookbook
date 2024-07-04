@@ -76,6 +76,8 @@ Questions, suggestions, and corrections are very welcome.
   * Reading the Node docs website
   * Creating your own docs
   * The core modules; APIs, classes, and interfaces as concepts
+  * Recipe: Examining the console or process module
+    * Practice: Making use of the docs 
 
 ### Node events: Basics
   * [Node and event-driven architecture](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
