@@ -1,6 +1,6 @@
 # Modules in Node
 
-You'll see "module" used to mean three different, related things in Node: 
+You'll see "module" used to mean three different but related things in Node: 
 1) The core Node modules
 2) Your local modules
 3) Third-party modules
