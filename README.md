@@ -41,7 +41,7 @@ Questions, suggestions, and corrections are very welcome.
 * What's in Node
   * The V8 Engine, libuv, and bindings
   * The core Node modules (APIs)
-* [Node modules](https://github.com/bkager/Node-cookbook/edit/main/modules-in-node.md)
+* [Node modules](https://github.com/bkager/Node-cookbook/blob/main/informational-modules-in-node.md)
   * The core modules, local modules, and 3rd party modules
 * Importing and exporting from modules
 * Node globals
