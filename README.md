@@ -37,7 +37,7 @@ Questions, suggestions, and corrections are very welcome.
 * [What's in this section](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md)
 
 ### Some preliminary info
-* The Node environment vs. the browser environment
+* [The Node environment vs. the browser environment](https://github.com/bkager/Node-cookbook/blob/main/informational-node-vs-browser.md)
 * What's in Node
   * The V8 Engine, libuv, and bindings
   * The core Node modules (APIs)
