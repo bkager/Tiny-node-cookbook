@@ -19,7 +19,7 @@ const random = (max, howManyNums = 1) => {
 
 ___
 
-This recipe doesn't create a full program, just a very simple function to use in trying out the Node shell, aka the Node REPL. REPL stands for "Read-eval-print-loop", and it's a command-line program where you can write and run JavaScript code line by line. If you have enough practice with JavaScript to be reading this cookbook, you've almost certainly used JavaScript in some sort of REPL before. The Node REPL is a great way to test small things out quickly. 
+This recipe doesn't create a full program, just a very simple function to use in trying out the Node shell, aka the Node REPL. REPL stands for "Read-eval-print-loop", and it's a command-line program where you can write and run JavaScript code line by line. If you have enough practice with JavaScript to be reading this cookbook, you've probably used JavaScript in some sort of REPL before. The Node REPL is a great way to test small things out quickly. 
 
 **Goals for this recipe**
 * Try out the Node shell
