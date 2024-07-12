@@ -20,15 +20,15 @@ const random = (max, howManyNums = 1) => {
 
 This recipe doesn't create a full program, just a very simple function to use in trying out the Node shell, aka the Node REPL. REPL stands for "Read-eval-print-loop", and it's a command-line program where you can write and run JavaScript code line by line. If you have enough practice with JavaScript to be reading this cookbook, you've probably used JavaScript in some sort of REPL before. The Node REPL is a great way to test small things out quickly. 
 
-##Goals
+## Goals
 * Try out the Node shell
 
-##You should already understand**
+## You should already understand**
 * Very basic command line skills
 
   &nbsp;
 
-#Getting Started
+# Getting Started
 
 Open a terminal program and, at the command prompt, type `node -v`. It should print the version number of Node installed on your system. If you don't get this, go back to the installation instructions and make sure you have Node installed correctly. 
 
@@ -40,7 +40,7 @@ To open the Node REPL, type `node`.
 
 &nbsp;
 
-##Coding in the REPL
+## Coding in the REPL
 
 You now have access to the Node environment. At the prompt, you can write JavaScript code, and it will execute when you press enter. Try it out by assigning a few variables and conducting some simple operations. For example, try typing `const num1 = 10` and enter; then `const num2 = 5` and enter; then `num1 + num2`. It should output 15. This is because the REPL saves your variables in memory for the length of your session. Once you exit the REPL, though, they're removed from memory and you'll start afresh next time. 
 
@@ -62,7 +62,7 @@ You can also enter code by opening the editor by typing `.editor`. This gives yo
 
 When you're done entering code, press `ctrl+D` to run it all at once. 
 
-##Random Number Generator
+## Random Number Generator
 
 With or without opening the editor, enter the recipe code at the top of this page and run it. It's a definition for a simple function which will return one or multiple random numbers. It accepts two arguments: a max number (meaning it will generate numbers between 1 and this number), and a quantity of random numbers to return, which defaults to 1. 
 
@@ -75,7 +75,7 @@ And that's the Node REPL! You're not going to write complicated code in it, and 
 
 However, the real takeaway from this recipe is that you've just done the single most important thing that Node can do: run JavaScript outside of a web browser. Until Node was released in 2009, JavaScript code only worked inside of browsers, since the browser was what held the software that interpreted and ran JavaScript code. Node recreated all the necessary parts to run JavaScript elsewhere, giving us the freedom to use JavaScript for things other than creating the visible parts of websites, and making it a much more flexible and useful programming language. 
 
-##Summary
+## Summary
 
 * sd
 
