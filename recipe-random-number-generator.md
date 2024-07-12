@@ -23,7 +23,7 @@ This recipe doesn't create a full program, just a very simple function to use in
 ## Goals
 * Try out the Node shell
 
-## You should already understand**
+## You should already understand
 * Very basic command line skills
 
   &nbsp;
@@ -77,7 +77,9 @@ However, the real takeaway from this recipe is that you've just done the single 
 
 ## Summary
 
-* sd
+* The Node REPL lets you write and run JavaScript code in a terminal.
+* If you declare variables and functions, Node will remember them until you exit the REPL.
+* This is an example of JavaScript working outside of a browser. 
 
 
 &nbsp;
