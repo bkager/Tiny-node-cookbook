@@ -73,7 +73,7 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
     * Publish a package to npm, install it, use it, and unpublish it 
     
 ### The Node docs
-  * Reading the Node docs website
+  * [Reading the Node docs website] (https://github.com/bkager/Node-cookbook/blob/main/informational-reading-the-Node-docs.md)
   * [Creating your own docs] (https://github.com/bkager/Node-cookbook/blob/main/informational-creating-your-own-docs.md)
   * The core modules; APIs, classes, and interfaces as concepts
   * Recipe: Examining the console or process module
