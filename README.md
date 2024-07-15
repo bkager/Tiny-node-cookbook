@@ -1,9 +1,9 @@
 # The Tiny Node Cookbook
 ## Tasty, bite-sized recipes for learning Node.js
 
-Node is a popular way to write JavaScript that runs outside of the web browser. I love Node, but it can be hard to get started. The documentation in particular is not the most intuitive for new users, especially if JavaScript is your first programming language. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
+Node is a popular way to write JavaScript that runs outside of the web browser. I love Node, but it can be hard to get started, especially if JavaScript is your first programming language. The documentation, in particular, is not the most intuitive for new users. I've found that a lot of existing tutorials echo this confusion--good at teaching bits and pieces, but not great at giving a top-down view of how everything fits together or prepping you to strike out on your own. 
 
-This collection of Node recipes--tiny programs meant to demonstrate one or two features each--is intended to demonstrate the basic features of Node in a friendly, incremental way.
+This collection of Node recipes--tiny programs meant to demonstrate one or two features each--is intended to help you learn the basic features of Node in a friendly, incremental way.
 
 ### Goals
 
@@ -13,13 +13,13 @@ This collection of Node recipes--tiny programs meant to demonstrate one or two f
 
 ### Who is this for?
 
-This is aimed at beginners to Node, but not beginners to JavaScript. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to lean Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining rather than underexplaining because there are already plenty of Node tutorials that do the opposite.
+This is aimed at beginners to Node, but not beginners to JavaScript. If you're new to Node but have experience in other programming languages, you may find some of this, especially the early recipes, pretty basic. If JavaScript is your first programming language and you're just starting to learn Node, you should hopefully find that little background knowledge is assumed. I've tried to err on the side of overexplaining concepts like servers, http requests, and interfaces rather than underexplaining, because there are already plenty of Node tutorials aimed at more experienced developers. In my own path to learning programming, I've found that relatively few things at the beginner level are actually *hard*, but plenty of things seem hard because explanations assume background knowledge you're missing.
 
-I am assuming that readers understand JavaScript fundamentals, including the structure of the language, basics of how classes/inheritence work, asynchronous programming, and the Web APIs available in the browser; know some basic HTML/CSS; are comfortable using an IDE like VSCode; and have some basic familiarity with using a terminal and the command line.
+I am assuming that readers understand JavaScript fundamentals, including the structure of the language, basics of how classes/inheritence work, asynchronous programming, and the Web APIs available in the browser, even if you feel like you need some brushing up on those concepts. You should know some basic HTML/CSS, be comfortable using an IDE like VSCode, and have some basic familiarity with using a terminal and the command line. If you're not quite sure if you're ready for Node, I recommend jumping in and working until you find you need to go off and learn some concept. I try to be very clear about marking what background knowledge you need. 
 
 In many ways, this for myself. Here's the stuff I wish had been explained more clearly when I started.
 
-Questions, suggestions, and corrections are very welcome. 
+Questions, suggestions, and corrections are very welcome! Open an issue on Github or contact me at britta.ager at gmail. 
 
 # Table of Contents
 
@@ -74,7 +74,7 @@ Questions, suggestions, and corrections are very welcome.
     
 ### The Node docs
   * Reading the Node docs website
-  * Creating your own docs
+  * [Creating your own docs] (https://github.com/bkager/Node-cookbook/blob/main/informational-creating-your-own-docs.md)
   * The core modules; APIs, classes, and interfaces as concepts
   * Recipe: Examining the console or process module
     * Practice: Making use of the docs 
