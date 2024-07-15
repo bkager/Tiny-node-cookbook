@@ -1,6 +1,6 @@
 # Resources
 
-A collection of books, webpages, tutorials, and so on that I've found helpful. 
+A collection of books, webpages, and tutorials that I've found helpful. 
 
 ## Books
 
