@@ -38,7 +38,7 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
 
 ### Some preliminary info
 * [The Node environment vs. the browser environment](https://github.com/bkager/Node-cookbook/blob/main/informational-node-vs-browser.md)
-* What's in Node
+* [What's in Node](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md)
   * The V8 Engine, libuv, and bindings
   * The core Node modules (APIs)
 * [Node modules](https://github.com/bkager/Node-cookbook/blob/main/informational-modules-in-node.md)
