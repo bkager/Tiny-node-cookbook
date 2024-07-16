@@ -1,4 +1,4 @@
-# Title
+# The Node globals
 
 
 ## Use H2 for subheadings
