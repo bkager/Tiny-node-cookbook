@@ -43,12 +43,12 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
   * The core Node modules (APIs)
 * [Node modules](https://github.com/bkager/Node-cookbook/blob/main/informational-modules-in-node.md)
   * The core modules, local modules, and 3rd party modules
-* Importing and exporting from modules
-* Node globals
+* [Importing and exporting from modules](https://github.com/bkager/Node-cookbook/blob/main/informational-importing-and-exporting-from-modules.md)
+* [Node globals](https://github.com/bkager/Node-cookbook/blob/main/informational-Node-globals.md)
   * The handful of modules and other objects that are always available. 
 
 ### The Node shell
-  * The Node shell: Introduction
+  * [The Node shell: Introduction](https://github.com/bkager/Node-cookbook/tree/main)
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
@@ -63,6 +63,14 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
 ### IDEs
   * VSCode
     * Switching over to using a modern coding environment
+
+### Node modules
+  * Node core modules
+  * Recipe: Import the XXX module
+  * Local modules
+  * Recipe: Import and export your own modules
+  * Third party modules
+  * Recipe: Import the XXX module
     
 ### NPM
   * Npm: An introduction to Node's package manager
