@@ -5,10 +5,6 @@ If you're reading this, you're presumably interested in working with JavaScript 
 
 ## What Node is and does
 
--Runtime environment for JS
--Lets JS run outside of browser
--Browsers add web-related functionality; Node adds functionality related to your computer
-
 Originally, JavaScript only worked inside web browsers and was used primarily for programming the frontends of websites (the parts of a website that visitors can see and interact with). Browsers were JavaScript's first runtime environment, meaning the software infrastructure that allowed JavaScript code to actually do something. The browser provided the JavaScript engine and gave websites written in JavaScript ways to interact with web documents, make http requests to other machines, and other functionality. JavaScript in the browser has access to tons of browser-related functionality, but runs in a sandbox that limits it from doing many other things, like freely interacting with your computer's filesystem or replying to http requests from other computers (which means you can't create a web server with it). You used to be able to create a website's frontend in JavaScript, but to create the backend--servers, database connections, etc.--you had to use a different programming language. 
 
 Node, released in 2009, is an alternative runtime environment that lets JavaScript run somewhere other than the browser. Like browsers, Node provides a JavaScript engine and the rest of the software environment needed to execute JavaScript code. The JavaScript language you use in Node is the same as the JavaScript you use in the browser. However, Node provides access to very different things than browsers do. Node lets your JavaScript code work with files on your computer and the operating system, reply to http requests, connect to databases, and conduct other useful operations. However, it doesn't have access to things like the browser's DOM, because it's running in a completely different program than the browser.
