@@ -26,7 +26,7 @@ The `console` object contains more than just the `.log()` method. Look at its do
 
 Lastly, go back to the MDN docs page for the Console API and look towards the bottom for a chart labelled "Browser compatibility". It's there because different web browsers are all separate programs which offer their own features. A Web API provided by Chrome isn't guaranteed to exist in Safari! The extensions that browsers make to JavaScript aren't standardized the way the JavaScript language itself is. The `function` keyword will work the same in any JavaScript runtime, but the `console` may be a bit different from one browser to the next. Notice that even on a much-used feature like the console, there's a bit of variation from one browser to the next in what's supported.
 
-In practice, browsers largely have the same features and agree on how to implement them, enough so that you don't really need to worry about cross-browser differences for the purposes of this cookbook. But it's good to be aware of the issue, and it's a useful reminder here that we're looking at things that different runtime environments add their own extensions to basic JavaScript syntax. 
+In practice, browsers largely have the same features and agree on how to implement them, enough so that you don't really need to worry about cross-browser differences for the purposes of this cookbook. But it's good to be aware of the issue, and it's a useful reminder here that we're looking at extensions that different runtime environments make to standard JavaScript syntax. 
 
 &nbsp;
 
