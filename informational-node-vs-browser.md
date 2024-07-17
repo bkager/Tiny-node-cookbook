@@ -81,12 +81,6 @@ Documentation of Node-specific features can be found [here](https://nodejs.org/d
 
 ___
 
-## Bonus recipes
-
-* Bonus recipes in bullet points here
-
- &nbsp;
-
 ## Resources
 
 ### Up Next
