@@ -9,8 +9,6 @@ Before getting into details of Node, here's a quick overview of some of its comp
 * Other dependencies
 * The core Node modules (APIs)
 
-&nbsp;
-
 ## Node Uses
 
 The following components are dependencies that Node uses under the hood. You don't need to worry about how they work; Node handles all of these for you. 
@@ -42,7 +40,6 @@ zlib: A library used for data compression.
 
 Again, these are all components that just work without you needing to worry about them! If you're curious, though, there are some links in "Resources" at the bottom of the page with more details.
 
-&nbsp;
 
 ## Node Provides
 
@@ -91,7 +88,6 @@ The names of the core modules are:
 
 The bulk of this book will be detailed investigations of what you can do with these modules. 
 
-&nbsp;
 
 ## Node is Accompanied By
 
@@ -99,7 +95,7 @@ The bulk of this book will be detailed investigations of what you can do with th
 
 When you install Node, it also installs NPM, a package manager which helps you find, install, and manage packages of code that you want to use in your own projects. NPM is really handy and will be discussed in [its own section](https://github.com/bkager/Node-cookbook?tab=readme-ov-file#npm).
 
-&nbsp;
+
 
 ## Summary 
 
@@ -107,17 +103,19 @@ When you install Node, it also installs NPM, a package manager which helps you f
 * The only components you need to worry about right now are the core Node modules, which this book will cover extensively.
 * You should understand the event loop before trying to write asynchronous code. 
 
-&nbsp;
+
 
 ___
 
 ## Resources
 
 **The event loop and asynchronous code**
+
 https://youtu.be/fOdcuDigxfw?si=kRDpCqxwWFGkPusk
   * A good explanation of async code and the event loop.
 
 **Libuv**
+
 https://youtu.be/kCJ3PFU8Ke8?si=UhYiyq9w4CsmREPk
   * Intro to libuv
 https://www.geeksforgeeks.org/libuv-in-node-js/
