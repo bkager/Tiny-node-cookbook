@@ -38,23 +38,21 @@ Right now, you can think of JavaScript in terms of three buckets of stuff: the c
 
 This is worth emphasizing because, if you've learned beginner JavaScript to the point that you're reading this book, you may have some JavaScript skills that you don't realize are browser-only. If you try to use these things in Node, they won't work. For example, you might know the `alert()` or `prompt()` methods. These are part of the browser, not the JavaScript language--they exist to give users popups in the graphical environment of a browser. (They're more properly called `window.prompt()` and `window.alert()`, and are methods belonging to the [Window Web API](https://developer.mozilla.org/en-US/docs/Web/API/Window) of the browser.) Node doesn't have a graphical interface in the same way, so the Window API and these methods aren't implemented in it.
 
-A possible source of confusion is that sometimes browsers and Node provide parallel functionality. Both have a `console` object with a `console.log()` method, for instance, because a console is handy in both runtime environments. But there are more things that aren't duplicated across runtime environments than things that are. Node is intended to complement browser runtime environments and to do things they can't, not to replace them.
+Sometimes browsers and Node provide parallel functionality. Both have a `console` object with a `console.log()` method, for instance, because a console is handy in both runtime environments. But there are more things that aren't duplicated across runtime environments than things that are. Node is intended to complement browser runtime environments and to do things they can't, not to replace them.
 
 Because different things exist in Node than in the browser, you need to look at different documentation for each runtime environment. For example, go to MDN's [JavaScript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) and search for `http.createServer()`, a method you'll use a lot in Node. You won't find it documented there, because MDN documents specifically browser-based JavaScript. Instead, you have to go to [this page](https://nodejs.org/docs/latest/api/http.html) in the Node docs to see information about it. (And the flip side: you can see the `document.getElementById()` method [here](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), but nowhere in the Node docs, because the Document interface exists in the browser but not in Node.) 
 
-MDN documents the core JavaScript language in addition to browser-specific features. The Node docs only document Node-specific features, not core JavaScript itself. MDN confused me no end when I started learning JavaScript--what was the core syntax? What was the browser adding?
-
-Another way to think about the division of functionality between the browser and Node is to remember that, wherever your code runs, it needs to have the appropriate runtime environment to run in. If you build a website in JavaScript, any users who visit your website online need to have a runtime environment for your JavaScript code. That's not a problem, because all modern browsers are JavaScript runtime environments--a user looking at your site in Chrome or Safari is automatically loading your code in a JavaScript runtime environment. You can write JavaScript and know that your users have methods like `alert()` and `document.getElementById()` in the browser on their own machine, so when they go to your website, the JavaScript code embedded in it can run correctly. However, most users who aren't developers won't have Node installed, so users generally can't run code with Node-only functionality. You could say that browser JavaScript is end-user focused, while Node JavaScript is developer focused. 
+Another way to think about the division of functionality between the browser and Node is to remember that, wherever your code runs, the appropriate runtime environment has to be available. If you build a website in JavaScript, any users who visit it online need to have a runtime environment for your JavaScript code. That's not a problem, because all modern browsers are JavaScript runtime environments--a user looking at your site in Chrome or Safari is automatically loading your code in a JavaScript runtime environment. You can write JavaScript and know that your users have methods like `alert()` and `document.getElementById()` in the browser on their own machine, so when they go to your website, the JavaScript code embedded in it can run correctly. However, most users who aren't developers won't have Node installed, so users generally can't run code with Node-only functionality. You could say that browser JavaScript is end-user focused, while Node JavaScript is developer-focused. 
 
 &nbsp;
 
 ## The browser runtime environment
 
-The best documentation for JavaScript is Mozilla's, at [MDN](https://developer.mozilla.org/en-US/). MDN includes guides, tutorials, and comprehensive documentation for a variety of web technologies, including the JavaScript language, browser-specific Web APIs for JavaScript, HTML, CSS, and more. Because it documents both fundamental JavaScript syntax and Web APIs that only work in the browser, I found MDN somewhat confusing before I understood the difference between the two. Just keep an eye on which section of the site you're in: if you're looking at the [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) reference you're looking at documentation of standard JavaScript features, and if you're looking at the [Web API](https://developer.mozilla.org/en-US/docs/Web/API) reference, you're looking at browser-only features that aren't relevant to Node. 
+The best documentation for JavaScript is Mozilla's, at [MDN](https://developer.mozilla.org/en-US/). MDN includes guides, tutorials, and comprehensive documentation for a variety of web technologies, including JavaScript, browser-specific Web APIs for JavaScript, HTML, CSS, HTTP and more. Because it documents both fundamental JavaScript syntax and Web APIs that only work in the browser, I found MDN somewhat confusing before I understood the difference between the two. Just keep an eye on which section of the site you're in: if you're looking at the [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) reference you're looking at documentation of standard JavaScript features, and if you're looking at the [Web API](https://developer.mozilla.org/en-US/docs/Web/API) reference, you're looking at browser-only features that aren't relevant to Node. 
 
 A few Web APIs that you might or might not have encountered include: 
 
-* The DOM (Document Object Model) and the Document interface
+* The DOM (Document Object Model) and the Document interface, used to represent and manipulate elements of HTML pages
 * The Fetch API, used in making HTTP requests
 * The XMLHttpRequest API, an older API for HTTP requests
 * The Window interface
@@ -64,20 +62,21 @@ A few Web APIs that you might or might not have encountered include:
 
 ## The Node runtime environment
 
-Documentation of Node-specific features can be found [here](https://nodejs.org/docs/latest/api/). The interfaces provided by Node are called the core Node modules, and we'll talk about them more shortly. 
+Documentation of Node-specific features can be found [here](https://nodejs.org/docs/latest/api/). The interfaces provided by Node are called the core Node modules, and they're the main topic of this book.
 
 &nbsp;
-______
-[^1] Interfaces and APIs are not exactly the same thing. In this case, the big-C Console API and the small-c console object/interface are effectively identical, but an API will often have more than one interface in it. More on the topic in this section **XXX ADD LINK XXX**.
 
 ## Summary 
+* Web browsers and Node are runtime environments for JavaScript. Runtime environments are the software and hardware that you need to make code actually work.
+* Runtime environments can provide interfaces which extend the capabilities of code that runs inside of them.
+* Browsers and Node both provide JavaScript interfaces, but different ones. Some interfaces are browser-only, some are Node-only, and some exist in both environments.
+* The actual JavaScript language is the same no matter where you use it.
 * Concepts you should understand include:
   * Runtime environments
   * APIs/interfaces
   * JavaScript engines
 
-* Bonus concepts
-  * Garbage collection  
+    
 &nbsp;
 
 ___
@@ -93,3 +92,6 @@ ___
 ### Up Next
 
 Link to next recipe or section
+
+______
+[^1]: Interfaces and APIs are not exactly the same thing. In this case, the big-C Console API and the small-c console object/interface are effectively identical, but an API will often have more than one interface in it. More on the topic in this section **XXX ADD LINK XXX**.
