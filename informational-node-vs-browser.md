@@ -87,5 +87,4 @@ ___
 
 Link to next recipe or section
 
-______
 [^1]: Interfaces and APIs are not exactly the same thing. In this case, the big-C Console API and the small-c console object/interface are effectively identical, but an API will often have more than one interface in it. More on the topic in this section **XXX ADD LINK XXX**.
