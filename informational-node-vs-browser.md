@@ -8,7 +8,7 @@ As we noted in the [introduction](https://github.com/bkager/Node-cookbook/blob/m
 
 All programming languages need a runtime environment, the necessary software and hardware that reads and interprets code in a particular language and translates it into binary code that a computer can execute. A JavaScript runtime environment will include things like the JavaScript engine, a section of memory for storing variables, the call stack, the event loop, and so on. (If you're not familiar with these concepts, don't worry about it for right now--the point is just that these are things you need to actually run the code you write.)
 
-Runtime environments also mean that code isn't limited to the basic syntax defined in the programming language itself. Instead, runtime environments provide additional code that extends the capabilities of the programming language. These additional capabilities are built into the software of the runtime environment, which exposes it (makes it available) to code running in the environment to use. 
+Runtime environments also mean that code isn't limited to the basic syntax defined in the programming language itself. Instead, runtime environments provide additional code that extends the capabilities of the programming language. These additional capabilities are built into the software of the runtime environment, which exposes them (makes them available) so code running in the environment can make use of them. 
 
 &nbsp;
 
