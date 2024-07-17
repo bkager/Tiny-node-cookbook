@@ -1,29 +1,12 @@
 ## The Node environment vs. the browser enviroment
 
-As we noted in the [introduction](https://github.com/bkager/Node-cookbook/blob/main/introduction.md), JavaScript was originally designed to work inside of web browsers. Node is a newer program which lets JavaScript work outside of a browser. How does this all work, and how is JavaScript in the browser different from JavaScript in Node?
-
-has multiple software environments in which it can run. Web browsers are the original runtime environment of JavaScript code, while Node is a newer JavaScript runtime environment which lets JavaScript code work outside of browsers. 
-
-
--All code needs a runtime environment
- -Translates it into machine code, etc. 
--The runtime environment provides the JS engine
- -The code for the language itself
-- The runtime env. provides other infrastructure
- - Event loop, bindings, etc. 
--The runtime environment also provides extra stuff 
- -Example of something not in the JS core lang but in Node or browser
- -Extends the abilities of the language
-
--Stuff browsers and Node both provide
--Stuff only in the browser
--Stuff only in Node
+As we noted in the [introduction](https://github.com/bkager/Node-cookbook/blob/main/introduction.md), JavaScript was originally designed to work inside of web browsers. Node is a newer runtime environment which lets JavaScript work outside of a browser. How does this all work, and how is JavaScript in the browser different from JavaScript in Node?
 
 &nbsp;
 
 ## Runtime environments
 
-All programming languages need a runtime environment. The runtime environment is the collection of software and hardware that reads and interprets code in a particular language and translates it into binary code that a computer can actually execute. A JavaScript runtime environment will include things like the JavaScript engine, a section of memory for storing variables, the call stack, the event loop, and so on. (If you're not familiar with these concepts, don't worry about it for right now--the point is just that these are things you need to actually run the code you write.)
+All programming languages need a runtime environment, the necessary software and hardware that reads and interprets code in a particular language and translates it into binary code that a computer can execute. A JavaScript runtime environment will include things like the JavaScript engine, a section of memory for storing variables, the call stack, the event loop, and so on. (If you're not familiar with these concepts, don't worry about it for right now--the point is just that these are things you need to actually run the code you write.)
 
 Runtime environments also mean that code isn't limited to the basic syntax defined in the programming language itself. Instead, runtime environments provide additional code that extends the capabilities of the programming language. These additional capabilities are built into the software of the runtime environment, which exposes it (makes it available) to code running in the environment to use. 
 
