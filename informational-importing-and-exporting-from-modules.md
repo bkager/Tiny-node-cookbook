@@ -15,7 +15,7 @@ Keeping your code modular is great: it's much easier to maintain and understand 
 
 There are two types of syntax for importing and exporting in modern JavaScript: ES6 modules, which use `import` and `export` statements, and CommonJS modules, which use `exports` and `require()`. Node supports both types. CommonJS modules were the original system used by Node, and if you run across older tutorials, they're likely to only discuss CommonJS. 
 
-## Common JS module imports/exports
+## CommonJS module imports/exports
 
 Say we have a folder containing two files, 'duck-functions.js' and 'index.js'. We have one function in `duck-functions.js` that we want to export so we can use it in `index.js`. 
 
@@ -23,7 +23,7 @@ Say we have a folder containing two files, 'duck-functions.js' and 'index.js'. W
 //In duck-functions.js:
 
 function sayQuack () {
-  console.log("Quack quck quack!")
+  console.log("Quack quack quack!")
 }
 
 module.exports.sayQuack = sayQuack;
@@ -34,7 +34,38 @@ The `module` object is created automatically by Node for each module, and it rep
 ![Visualization showing the module object representing the module, and some of the object's contents, including the .exports object](https://github.com/user-attachments/assets/2da6b5eb-3ff5-41e2-8dcc-b967875e6859)
 
 
-When 
+We've added a property, `sayQuack`, to the exports object, and given it the value of the definition of our `sayQuack` function`. Module.exports is exposed to other files that want to use things we've put in it. In fact, module.exports is basically the value of our module, as far as other files are concerned. We can import our function into our index.js file and invoke it like this:
+
+```
+//In index.js:
+
+const duckFunctions = require('./duck-functions.js');
+
+duckFunctions.sayQuack() //Prints "Quack quack quack!
+```
+
+We're importing the module.exports object to index.js, saving it to the variable duckFunctions, and then invoking the function we saved in it as .sayQuack(). I've used this syntax because I think it's the easiest to see what's happening, but there are several ways to do this.
+
+### Syntax #1
+
+
+```
+//In duck-functions.js:
+
+function sayQuack () {
+  console.log("Quack quack quack!")
+}
+
+module.exports.sayQuack = sayQuack;
+```
+
+```
+//In index.js:
+
+const duckFunctions = require('./duck-functions.js');
+
+duckFunctions.sayQuack() //Prints "Quack quack quack!
+```
 
 
 
