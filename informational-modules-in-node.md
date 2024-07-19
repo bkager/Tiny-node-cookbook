@@ -5,9 +5,11 @@ You'll see "module" used to mean three different but related things in Node:
 2) Your local modules
 3) Third-party modules
 
+All three types of modules are files containing code. You'll want to export code from the files where it lives and import it into other files where you want to use it.
+
 ## The Node core modules
 
-
+As discussed in the [last section](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md), the Node core modules are APIs which contain the main tools that you use Node for. 
 
 
 ## Your local modules
@@ -16,7 +18,7 @@ When you build a JavaScript project of any real complexity, you'll want to split
 
 &nbsp;
 
-### Third party modules
+## Third party modules
 
 Third party modules are code packages published by other people for you to use in your own code. These have to be not only imported into your code files, but downloaded and installed. We'll cover finding and installing 3rd party modules later as well.
 
