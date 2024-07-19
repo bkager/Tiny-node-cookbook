@@ -7,50 +7,8 @@ You'll see "module" used to mean three different but related things in Node:
 
 ## The Node core modules
 
-The Node core modules are subsections of the Node application. Each contains functionality related to some general area: the `fs` module contains methods, functions, etc. relating to filesystem operations, the `http` module has functionality for receiving and sending http requests, and so on. They exist to give you functionality that isn't part of the JavaScript language itself. **XXX CHECK THIS; TALK ABOUT MORE XXX** The core modules are included when you install Node, and they provide a lot of the functionality you'll use to create programs in Node. Together, the Node core modules make up the Node standard library. 
 
-The core modules are APIs, and we can compare them to the Web APIs available to JavaScript in the browser. Like Web APIs, they're interfaces that you can make use of to interact with systems outside of Node. More about the concept of APIs in a bit. **XXX MAYBE MOVE THAT EARLIER XXX**
 
-The core modules are documented (along with other things) [here](https://nodejs.org/docs/latest/api/) on the Node website. We'll be looking at these docs a lot. 
-
-The names of the core modules are: 
-* assert
-* buffer
-* child_process
-* **console**
-* cluster
-* **crypto**
-* dgram
-* dns
-* events
-* fs
-* http
-* http2
-* https
-* net
-* os
-* path
-* perf_hooks
-* **process**
-* querystring
-* readline
-* repl
-* stream
-* string_decoder
-* timers
-* tls
-* tty
-* url
-* util
-* v8
-* vm
-* wasi
-* worker
-* zlib
-  
-Even though the core modules are a part of Node, your code doesn't automatically have access to the functionality _in_ them. If you want to use a core module, you usually have to import it into your code to use it. This helps keep the packages of code you're writing small--your application only requires specific parts of Node instead of all of it. **XXX CHECK THIS; TALK ABOUT MORE XXX**
-
-A few "global" modules (the ones in bold in the list above) are always available and don't have to be imported. 
 
 ## Your local modules
 
