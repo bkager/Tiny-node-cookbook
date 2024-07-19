@@ -1,13 +1,53 @@
-# Importing and exporting from Modules
+# Importing and Exporting from Modules
+
+-this is why we have to import/export
+-The types of modules in JS
+ -ES6
+ -CommonJS (used in Node)
+-How to export modules
+ - exporting a single function from a module
+ - export multiple functions from a module
+-How to import modules
+ - import a single function
+ - import multiple functions
+
+Keeping your code modular is great: it's much easier to maintain and understand than just dumping your entire program into one file. However, if you break your program up into ten smaller modules instead of one big file, it does mean that code in one file will sometimes need to consume code in another file. Say you store a function called sayHello() in module1 and want to call it from module2. You have to expose sayHello() to other code by exporting it--making it available--from module1, and in order to use it in module2, you have to import it.
+
+There are two types of syntax for importing and exporting in modern JavaScript: ES6 modules, which use `import` and `export` statements, and CommonJS modules, which use `exports` and `require()`. Node supports both types. CommonJS modules were the original system used by Node, and if you run across older tutorials, they're likely to only discuss CommonJS. 
+
+## Common JS module imports/exports
+
+Say we have a folder containing two files, 'duck-functions.js' and 'index.js'. We have one function in `duck-functions.js` that we want to export so we can use it in `index.js`. 
+
+```
+//In duck-functions.js:
+
+function sayQuack () {
+  console.log("Quack quck quack!")
+}
+
+module.exports.sayQuack = sayQuack;
+```
+
+The `module` object is created automatically by Node for each module, and it represents the module itself. The `exports` object exists automatically on the module object. `Exports` is where we're going to put anything we want to make available to other files. 
+
+![Visualization showing the module object representing the module, and some of the object's contents, including the .exports object](https://github.com/user-attachments/assets/2da6b5eb-3ff5-41e2-8dcc-b967875e6859)
 
 
-## Use H2 for subheadings
+When 
 
 
-&nbsp;
+
+
+
+
+
+## ES6 module imports/exports
+
 
 ## Summary 
-* Bullet points
+* Node supports both CommonJS and ES6 modules.
+* 
 
 &nbsp;
 
