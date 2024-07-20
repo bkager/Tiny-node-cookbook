@@ -11,7 +11,7 @@
  - import a single function
  - import multiple functions
 
-Keeping your code modular is great: it's much easier to maintain and understand than just dumping your entire program into one file. However, if you break your program up into ten smaller modules instead of one big file, it does mean that code in one file will sometimes need to consume code in another file. Say you store a function called sayHello() in module1 and want to call it from module2. You have to expose sayHello() to other code by exporting it--making it available--from module1, and in order to use it in module2, you have to import it.
+Keeping your code modular is great: it's much easier to maintain and understand than just dumping your entire program into one file. However, if you break your program up into ten smaller modules instead of one big file, it does mean that code in one file will often need to consume code in another file. Say you store a function called sayHello() in module1 and want to call it from module2. You have to expose sayHello() to other code by exporting it from module1, and in order to use it in module2 specifically, you have to import it there.
 
 There are two types of syntax for importing and exporting in modern JavaScript: ES6 modules, which use `import` and `export` statements, and CommonJS modules, which use `exports` and `require()`. Node supports both types. CommonJS modules were the original system used by Node, and if you run across older tutorials, they're likely to only discuss CommonJS. 
 
