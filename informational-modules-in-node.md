@@ -5,7 +5,7 @@ You'll see "module" used to mean three different but related things in Node:
 2) Your local modules
 3) Third-party modules
 
-All three types of modules are files containing code. You'll want to export code from the files where it lives and import it into other files where you want to use it.
+All three types of modules are files containing code. You have to export code from the files where it lives and import it into other files where you want to use it.
 
 ## The Node core modules
 
@@ -24,7 +24,7 @@ Third party modules are code packages published by other people for you to use i
 
 ### Modules
 
-All three types of modules are, fundamentally, just chunks of code, whether written by you or by other people. To allow code in one file to make use of code in another file, we have to import/export it, which we'll cover in the next section.
+All three types of modules are, fundamentally, just chunks of code, whether written by you or by other people. To allow code in one module to use code in another module, we have to import/export it, which we'll cover in the next section.
 &nbsp;
 
 ## Summary 
