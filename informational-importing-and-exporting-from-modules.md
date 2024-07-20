@@ -33,7 +33,7 @@ const duckFunctions = require('./duck-functions.js');
 duckFunctions.sayQuack() //Prints "Quack quack quack!"
 ```
 
-We're importing the module.exports object to index.js, saving it to the variable duckFunctions, and then invoking the function we saved in it as .sayQuack(). I've used this syntax because I think it's the easiest to see what's happening, but there are several ways to do this.
+We're importing the module.exports object to index.js, saving it to the variable duckFunctions, and then invoking the function we saved in it as .sayQuack(). I've demonstrated this syntax first because I think it's the easiest to see what's happening, but there are several ways to do this.
 
 ### Syntax #1
 
