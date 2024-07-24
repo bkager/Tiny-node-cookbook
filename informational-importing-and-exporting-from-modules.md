@@ -41,7 +41,7 @@ CJS or ES6
 
 ### Syntax #1
 
-This is what you've seen already, but with more exports added. You can export multiple things from a file, including function definitions, variables, **XXX ANYTHING ELSE? XXX**.
+This is what you've seen already, but with another export added. You can add whatever you like to the module.exports object, including function definitions, variables, **XXX ANYTHING ELSE? XXX**., and then access it from your other file.
 
 ```
 //In duck-functions.cjs:
@@ -49,14 +49,10 @@ This is what you've seen already, but with more exports added. You can export mu
 function sayQuack () {
   console.log("Quack quack quack!")
 }
-function eatBread() {
-  console.log("You eat the bread tourists throw to you.")
-}
 
 const duckName = "Herbert";
 
 module.exports.sayQuack = sayQuack;
-module.exports.eatBread = eatBread; 
 module.exports.duckName = duckName;
 ```
 
@@ -66,14 +62,16 @@ module.exports.duckName = duckName;
 const duckFunctions = require('./duck-functions.js');
 
 duckFunctions.sayQuack() //Prints "Quack quack quack!
+console.log(duckFunctions.duckName) //Prints "Herbert"
 
 ```
 ### Syntax #2
 
+Destructuring syntax
 
 ### Syntax #3
 
-You can also set the entire exports 
+Default export
 
 
 
