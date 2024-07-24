@@ -35,27 +35,45 @@ duckFunctions.sayQuack() //Prints "Quack quack quack!"
 
 We're importing the module.exports object to index.js, saving it to the variable duckFunctions, and then invoking the function we saved in it as .sayQuack(). I've demonstrated this syntax first because I think it's the easiest to see what's happening, but there are several ways to do this.
 
+### Making Node recognize which type of modules you're using
+
+CJS or ES6
+
 ### Syntax #1
 
+This is what you've seen already, but with more exports added. You can export multiple things from a file, including function definitions, variables, **XXX ANYTHING ELSE? XXX**.
 
 ```
-//In duck-functions.js:
+//In duck-functions.cjs:
 
 function sayQuack () {
   console.log("Quack quack quack!")
 }
+function eatBread() {
+  console.log("You eat the bread tourists throw to you.")
+}
+
+const duckName = "Herbert";
 
 module.exports.sayQuack = sayQuack;
+module.exports.eatBread = eatBread; 
+module.exports.duckName = duckName;
 ```
 
 ```
-//In index.js:
+//In index.cjs:
 
 const duckFunctions = require('./duck-functions.js');
 
 duckFunctions.sayQuack() //Prints "Quack quack quack!
-```
 
+```
+### Syntax #2
+
+
+### Syntax #3
+
+You can also set the entire exports 
 
 
 
