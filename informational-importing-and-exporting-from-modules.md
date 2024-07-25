@@ -38,6 +38,7 @@ We're importing the module.exports object to index.js, saving it to the variable
 ### Making Node recognize which type of modules you're using
 
 CJS or ES6
+Or set type in package.json
 
 ### Syntax #1
 
