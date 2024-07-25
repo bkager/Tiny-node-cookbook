@@ -42,7 +42,7 @@ Or set type in package.json
 
 ### Syntax #1
 
-This is what you've seen already, but with another export added. You can add whatever you like to the module.exports object, including function definitions, variables, **XXX ANYTHING ELSE? XXX**., and then access it from your other file.
+This is what you've seen already, but with another export added. You can add multiple variables and function definitions to the exports object, and then access them from your other file.
 
 ```
 //In duck-functions.cjs:
@@ -62,18 +62,56 @@ module.exports.duckName = duckName;
 
 const duckFunctions = require('./duck-functions.js');
 
-duckFunctions.sayQuack() //Prints "Quack quack quack!
-console.log(duckFunctions.duckName) //Prints "Herbert"
+duckFunctions.sayQuack(); //Prints "Quack quack quack!
+console.log(duckFunctions.duckName); //Prints "Herbert"
 
 ```
 ### Syntax #2
 
-Destructuring syntax
+That syntax is nice and familiar--it's clear that you're just adding stuff to an object, exporting the object, and then accessing the things you added later where you import it. But you can tidy it up and make it less verbose by using destructuring: 
 
-### Syntax #3
+```
+//In duck-functions.cjs:
 
-Default export
+function sayQuack () {
+  console.log("Quack quack quack!");
+}
 
+const duckName = "Herbert";
+
+module.exports = {sayQuack, duckName};
+```
+
+```
+//In index.cjs:
+
+const {sayQuack, duckName} = require('./exports-module.cjs')
+
+sayQuack(); //Prints "Quack quack quack!
+console.log(duckName); //Prints "Herbert"
+```
+
+### A default export
+
+If you're only exporting one thing, you can simply set module.exports equal to it: 
+
+```
+//In duck-functions.cjs:
+
+function sayQuack () {
+  console.log("Quack quack quack!")
+}
+
+module.exports = sayQuack;
+```
+
+```
+//In index.cjs:
+
+const sayQuack = require('./exports-module.cjs');
+
+sayQuack();
+```
 
 
 
