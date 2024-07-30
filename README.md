@@ -34,7 +34,7 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
 
 ## Node Basics: A Minimal Introduction to Some Important Bits
 
-* [What's in this section](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md)
+* [What's in this section]((https://github.com/bkager/Tiny-node-cookbook/blob/main/informational-whats-in-Node.md))
 
 ### Some preliminary info
 * [The Node environment vs. the browser environment](https://github.com/bkager/Node-cookbook/blob/main/informational-node-vs-browser.md)
