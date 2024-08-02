@@ -15,7 +15,7 @@ The following components are dependencies that Node uses under the hood. You don
 
 ### The JavaScript engine
 
-All JavaScript runtime environments need a JavaScript engine, the software that actually interprets, compiles, and executes JavaScript code. There are multiple different JavaScript engines--Chrome, Firefox, and Safari, for example, all use different ones. You don't need to worry about the differences between engines or the details of how they work to learn Node. Just know that the engine is the software that translates JavaScript into code the computer can run, and it works under the hood without your input. Node uses Google's popular V8 JavaScript engine, which was developed for Chrome.
+All JavaScript runtime environments need a JavaScript engine, the software that actually interprets, compiles, and executes JavaScript code. There are multiple JavaScript engines--Chrome, Firefox, and Safari, for example, all use different ones. You don't need to worry about the differences between engines or the details of how they work to learn Node. Just know that the engine is the software that translates JavaScript into code the computer can run, and it works under the hood without your input. Node uses Google's popular V8 JavaScript engine, which was developed for Chrome.
 
 
 ### The Node C/C++ bindings
@@ -27,7 +27,7 @@ The Node C/C++ bindings translate between JavaScript code and C/C++ code. This i
 
 Libuv (pronounced "lib-you-vee") is a library that makes asynchronous I/O operations possible in Node. Its main function in Node is to provide the event loop. It's written in C. 
 
-If you don't understand the event loop in JavaScript, you should learn it before getting too deep into Node, because asynchronicity is very important for Node applications. This book assumes you have some familiarity with asynchronous JavaScript and how the event loop schedules operations. 
+If you don't understand the event loop in JavaScript, you should learn it before getting too deep into Node, because asynchronicity is very important for Node applications. This book assumes you have some familiarity with asynchronous JavaScript and how the event loop schedules operations. You don't need to understand what Libuv is doing under the hood to make the event loop operate, though. 
 
 ### Other dependencies
 
@@ -38,7 +38,7 @@ http-parser: A parser for HTTP requests/responses written in C.
 OpenSSL: Open-source cryptographic packae that helps encrypt network communications.
 zlib: A library used for data compression.
 
-Again, these are all components that just work without you needing to worry about them! If you're curious, though, there are some links in "Resources" at the bottom of the page with more details.
+Again, these are all components that just work without you needing to worry about them.
 
 
 ## Node Provides
@@ -111,17 +111,14 @@ ___
 
 **The event loop and asynchronous code**
 
-https://youtu.be/fOdcuDigxfw?si=kRDpCqxwWFGkPusk
+[Codesmith, JavaScript the Hard Parts: Promises, Async & the Event Loop](https://youtu.be/fOdcuDigxfw?si=kRDpCqxwWFGkPusk)
   * A good explanation of async code and the event loop.
 
 **Libuv**
 
-https://youtu.be/kCJ3PFU8Ke8?si=UhYiyq9w4CsmREPk
-  * Intro to libuv
-https://www.geeksforgeeks.org/libuv-in-node-js/
-  * A detailed explanation of Libuv.
-https://docs.libuv.org/en/v1.x/guide/basics.html
-  * An explanation of libuv. 
+[Libuv docs, Basics of Libuv](https://docs.libuv.org/en/v1.x/guide/basics.html)
+[libuv Cross platform asynchronous i/o](https://youtu.be/kCJ3PFU8Ke8?si=UhYiyq9w4CsmREPk)
+[Geeks for Geeks, Libuv in Node.js](https://www.geeksforgeeks.org/libuv-in-node-js/)
 
 ### Up Next
 
