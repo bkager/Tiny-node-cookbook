@@ -13,8 +13,6 @@ That last point is worth reiterating because it's so fundamental that many tutor
 
 <img width="690" alt="Visualization of Node functions vs browser functions as described above" src="https://github.com/user-attachments/assets/58a78444-df26-4178-8a6c-49762bdee620">
 
-You can think of three buckets of JavaScript stuff that you want to be able to distinguish right now: the core JavaScript language that is the same whether you're using it in the browser or in Node, the browser-related APIs that web browsers provide to extend JavaScript's capabilities in the browser, and the non-browser APIs that Node provides to extend what JavaScript can do outside of the browser. 
-
 You'll run Node-based JavaScript primarily from the command line, and browser-based JavaScript from inside a browser. Browser JavaScript can communicate with Node JavaScript through HTTP requests, which means you can create the frontend of a website in browser JavaScript and the backend server in Node JavaScript and have the two sides talk to each other with http to create a cohesive user experience. Node and browsers aren't an either/or; they're complementary environments, and you need to use both to get the most out of JavaScript. 
 
 ![Visualization of a Node server communicating with a website created in browser JavaScript via http requests and responses. The code for both the webpage and server live on your filesystem as part of the same project.](https://github.com/user-attachments/assets/001bda84-fe5c-479e-b87a-129452c9fc8d)
@@ -42,3 +40,13 @@ It's a good idea to start your own collection of useful code examples as you go.
 As with many things Node, I find the offical instructions for installing it assume more knowledge than you might have right now. If you want very clear, step-by-step directions, Digital Ocean has a nice set of Node tutorials that starts with installation [here](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-and-create-a-local-development-environment-on-macos). Note that you can switch between instructions for different operating systems.
 
 Node's own instructions are [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) and may be fine if you're more experienced. 
+
+___
+
+## Resources
+
+* This section will regularly have links to further resources on the topic. Also check out the collected bibliography. 
+
+### Up Next
+
+Link to next recipe or section
