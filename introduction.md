@@ -11,7 +11,11 @@ Node, released in 2009, is an alternative runtime environment that lets JavaScri
 
 That last point is worth reiterating because it's so fundamental that many tutorials just forget to explain it. Node and a web browser are two completely different programs. They both run JavaScript code, but they provide very different features and you use them to do different things with the language. The brower provides webpage-related functionality, while Node mostly provides functionality related to the computer it's running on. You'll often use browser JavaScript and Node JavaScript together to write different parts of a project, and you will store them side by side in a project's files, but you could compare this to putting a photo, a music file, and a text document in the same folder on your computer desktop--these things can be stored together and they might all relate to the same project, but they need to run in different programs, and you'll have problems if you try to open a music track in a text editor. 
 
-**ADD DIAGRAM**
+<img width="690" alt="Visualization of Node functions vs browser functions as described above" src="https://github.com/user-attachments/assets/58a78444-df26-4178-8a6c-49762bdee620">
+sdf
+![image](https://github.com/user-attachments/assets/58a78444-df26-4178-8a6c-49762bdee620)
+
+
 
 You can think of three buckets of JavaScript stuff that you want to be able to distinguish right now: the core JavaScript language that is the same whether you're using it in the browser or in Node, the browser-related APIs that web browsers provide to extend JavaScript's capabilities in the browser, and the non-browser APIs that Node provides to extend what JavaScript can do outside of the browser. 
 
