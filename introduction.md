@@ -45,7 +45,7 @@ ___
 
 ## Resources
 
-* This section will regularly have links to further resources on the topic. Also check out the collected bibliography. 
+* This section will regularly have links to further resources on the topic, and there's a collected [bibliography](https://github.com/bkager/Tiny-node-cookbook/blob/main/resources.md) at the end of the book. 
 
 ### Up Next
 
