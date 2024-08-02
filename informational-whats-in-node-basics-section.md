@@ -15,7 +15,7 @@ The following components are dependencies that Node uses under the hood. You don
 
 ### The JavaScript engine
 
-All JavaScript runtime environments need a JavaScript engine, the software that actually interprets, compiles, and executes JavaScript code. There are multiple JavaScript engines--Chrome, Firefox, and Safari, for example, all use different ones. You don't need to worry about the differences between engines or the details of how they work to learn Node. Just know that the engine is the software that translates JavaScript into code the computer can run, and it works under the hood without your input. Node uses Google's popular V8 JavaScript engine, which was developed for Chrome.
+All JavaScript runtime environments need a JavaScript engine, the software that actually interprets, compiles, and executes JavaScript code. There are multiple JavaScript engines—Chrome, Firefox, and Safari, for example, all use different ones. You don't need to worry about the differences between engines or the details of how they work to learn Node. Just know that the engine is the software that translates JavaScript into code the computer can run, and it works under the hood without your input. Node uses Google's popular V8 JavaScript engine, which was developed for Chrome.
 
 
 ### The Node C/C++ bindings
