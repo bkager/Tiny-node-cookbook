@@ -9,7 +9,7 @@ All three types of modules are files containing code.
 
 ## The Node core modules
 
-As discussed in the [last section](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md), the Node core modules are APIs which contain the main tools that Node gives you. They're a key part of the Node installation. However, even though the core modules are downloaded when you install Node, your code doesn't automatically have access to the functionality _in_ them. If you want to use the tools in a core module, you usually have to import it into your code first. This helps keep the packages of code you're writing small--your application only requires specific parts of Node instead of all of it. **XXX CHECK THIS; TALK ABOUT MORE XXX** 
+As discussed in the [last section](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md), the Node core modules are APIs which contain the main tools that Node gives you. They're a key part of the Node installation. However, even though the core modules are downloaded when you install Node, your code doesn't automatically have access to the functionality _in_ them. If you want to use the tools in a core module, you usually have to import it into your code first. This keeps Node from having to load anything you're not using.  
 
 A few "global" modules are always available and don't have to be imported. See the [Node globals](https://github.com/bkager/Node-cookbook/blob/main/informational-Node-globals.md) page later in this section for more on this.
 
