@@ -130,12 +130,21 @@ sayQuack();
 ```
 ### Importing ES6 modules into CommonJs modules with a dynamic import
 
-Remember: the import methods shown above only work to import into a CommonJS module FROM another CommonJS module. To import into CommonJS from an ES6 module, you need to use the following syntax: 
+Remember: the import methods shown above only work to import into a CommonJS module FROM another CommonJS module. 
+
+To import into CommonJS from an ES6 module, you need to use the following syntax for [dynamic imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import): 
 
 ```
+//In index.cjs:
+
+import("./duck-functions.cjs").then(({default: sayQuack, duckName}) => {
+ 
+})
 ```
 
 ## ES6 module imports/exports
+
+
 
 ### Syntax #1: Named exports
 
