@@ -4,6 +4,8 @@ A collection of books, webpages, and tutorials that I've found helpful.
 
 ## Books
 
+[Mixu's Node Book](https://book.mixu.net/node/index.html)
+
 ## Websites
 
 ## By Topic
