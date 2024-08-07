@@ -46,8 +46,8 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
   * The handful of modules and other objects that are always available. 
 
 ### The Node shell
-  * [The Node shell: Introduction * ](https://github.com/bkager/Node-cookbook/tree/main)
-  * [Recipe: Random Number Generator * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
+  * The Node shell: Introduction
+  * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
 ### Simple Node programs
@@ -79,14 +79,14 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
     * Publish a package to npm, install it, use it, and unpublish it 
     
 ### The Node docs
-  * [Reading the Node docs website * ](https://github.com/bkager/Node-cookbook/blob/main/informational-reading-the-Node-docs.md)
-  * [Creating your own docs * ](https://github.com/bkager/Node-cookbook/blob/main/informational-creating-your-own-docs.md)
+  * Reading the Node docs website
+  * Creating your own docs
   * The core modules; APIs, classes, and interfaces as concepts
   * Recipe: Examining the console or process module
     * Practice: Making use of the docs 
 
 ### Node events: Basics
-  * [Node and event-driven architecture * ](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
+  * Node and event-driven architecture
   * The events module
     * The Node docs: our first module in depth
   * The EventEmitter class
