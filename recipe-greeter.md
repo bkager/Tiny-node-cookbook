@@ -1,9 +1,6 @@
 # Greeter
 
-````
-
-// This is a simple JavaScript program that outputs a greeting. 
-
+```
 const greetings = ["Hello", "Hi", "Howdy", "Welcome", "Hiya"]; 
 
 let length = greetings.length;
@@ -12,22 +9,22 @@ let randomNum = Math.floor(Math.random() * length);
 
 console.log(greetings[randomNum]);
 
-````
 
-___
+```
 
 This minimal program will show you how to write JavaScript in a file from the command line, and then execute the code in that file in Node from the command line. 
 
-**Goals for this recipe**
-* Writing a simple JavaScript program in a file
-* Running your file in Node
-* Node is just a different environment for JavaScript
-
-**You should already understand**
-* Very basic comfort with using a terminal and simple command line operations
+## Goals
+* Write a simple JavaScript program in a file
+* Run your file in Node
+* Understand that Node is just a different environment for JavaScript
+  
+## You should already understand
+* Have very basic comfort with using a terminal and simple command line operations
 * A command line text editor
 
-___
+
+# Instructions
 
 Open a terminal program and navigate to a folder where you want to save the program you're going to write. For example, I'll put mine on my desktop, so I navigate to ~/Desktop. 
 
@@ -56,8 +53,23 @@ There's nothing special about command line text editors except convenience--you'
 Notice that this program doesn't take any input--you can't, for example, give it a person's name and have it greet them specifically. We'll add that in the next recipe, and look at the Node process module at the same time. 
 
 
-### Bonus recipes
+## Summary 
+* Bullet points
+
+&nbsp;
+
+___
+
+## Bonus recipes
 
 * Create a new file in the same directory and have it output random insults instead. Run it from the command line.
 * Create a program that outputs the date and time.
 
+ &nbsp;
+
+
+## Resources
+ 
+### Up Next
+
+Link to next recipe or section
