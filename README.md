@@ -53,11 +53,11 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
   
 ### Simple Node programs
   * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
-    * Learn: Writing a simple program, JavaScript in the Node runtime environment
-  * [Recipe: Greeter + Names * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
-    * Learn: The process module, passing arguments to a program
+    * Learn: Writing a simple program; JavaScript in the Node runtime environment
+  * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
+    * Learn: The process module; passing arguments to a program
   * Recipe: Goodbyer
-    * The console in Node. Node's I/O. Piping it to another program. 
+    * The console in Node; Node's I/O; piping it to another program. 
 
 ### IDEs
   * VSCode
