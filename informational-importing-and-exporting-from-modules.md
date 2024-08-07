@@ -6,9 +6,9 @@ There are two types of syntax for importing and exporting in modern JavaScript: 
 
 ## Which type of modules to use?
 
-ES6 modules are newer and are, per [the official JavaScript specification](https://tc39.es/ecma262/#sec-modules), the standard format for JavaScript modules. They offer performance improvements over CommonJS modules. In particular, ES6 modules are loaded asynchronously, while CommonJS modules load synchronously and thus block other code execution. Node now supports ES6 modules but still treats CommonJS as the default—if you don't explictly set up modules as described in the next section, Node will treat your modules as CommonJS. 
+ES6 modules are newer and are, per [the official JavaScript specification](https://tc39.es/ecma262/#sec-modules), the standard format for JavaScript modules. They offer performance improvements over CommonJS modules. In particular, ES6 modules can be loaded asynchronously, while CommonJS modules load synchronously and thus block other code execution. Node now supports ES6 modules but still treats CommonJS as the default—if you don't explictly set up modules as described in the next section, Node will treat your modules as CommonJS. 
 
-ES6 modules can import CommonJS modules with no problem using the `import` syntax described below. CommonJS modules, however, cannot import ES6 modules the way they import other CommonJS modules. See the special syntax you have to use below. 
+ES6 modules can import CommonJS modules with no problem using the `import` syntax described below. CommonJS modules, however, cannot import asynchronous ES6 modules the way they import other CommonJS modules. See the special syntax you have to use below. 
 
 Thus if you use ES6 modules you have to do a little extra setup but then don't have to worry about whether modules you import are ES6 or CommonJS; but your code will be less compatible with older Node versions and code using CommonJS unless you use a transpiler to translate it from ES6 syntax into ES5 syntax. If you use CommonJS modules you'll be using the Node default and your code will be compatible with older Node programs, but you'll have to pay attention to what types of modules you import and change your import syntax when importing ES6 modules. 
 
@@ -137,10 +137,17 @@ To import into CommonJS from an ES6 module, you need to use the following syntax
 ```
 //In index.cjs:
 
-import("./duck-functions.cjs").then(({default: sayQuack, duckName}) => {
- 
+const {sayQuack} = require("./duck-functions.cjs")
+import("./duck-functions.mjs").then(({duckName})=> {
+  console.log(duckName)
 })
+
+sayQuack();
 ```
+
+Here we import `sayQuack` from a CommonJS module and invoke it. We also import `duckName` from an ES6 module using a dynamic import with the `import()` expression. This `import()` returns a Promise which resolves to the value of what the ES6 module is exporting. This imported object is passed to the `.then()` statement, where we can destructure named exports from it in its parameters and then use them inside the `.then()`.
+
+If this sounds like more than you want to deal with, you may want to stick with using ES6 modules in your projects for the moment. Importing ES6 modules into CommonJS ones has been enough of a pain point in Node that some packages are offered in both CommonJS and ES6 versions so developers can choose which to import. 
 
 ## ES6 module imports/exports
 
@@ -250,6 +257,8 @@ console.log(duckStuff.duckName); //Prints "Herbert"
 * Node supports both CommonJS and ES6 modules.
 * You have to tell Node which type of module you're using with file extensions or a "type" property in package.json.
 * There are multiple syntaxes you can use with both module types.
+* ES6 modules can import from CommonJS modules using their regular syntax. 
+* Importing into CommonJS modules from ES6 modules requires special syntax. 
 
 &nbsp;
 
