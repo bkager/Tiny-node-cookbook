@@ -45,8 +45,8 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
 * [Node globals * ](https://github.com/bkager/Node-cookbook/blob/main/informational-Node-globals.md)
   * The handful of modules and other objects that are always available. 
 
-### The Node shell
-  * The Node shell: Introduction
+### The Node REPL
+  * The Node REPL: Introduction
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
