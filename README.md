@@ -43,7 +43,6 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
   * The core Node modules (APIs)
 * [Node modules](https://github.com/bkager/Node-cookbook/blob/main/informational-modules-in-node.md)
   * The core modules, local modules, and 3rd party modules
-* [Importing and exporting from modules](https://github.com/bkager/Node-cookbook/blob/main/informational-importing-and-exporting-from-modules.md)
 * [Node globals](https://github.com/bkager/Node-cookbook/blob/main/informational-Node-globals.md)
   * The handful of modules and other objects that are always available. 
 
@@ -66,6 +65,7 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
 
 ### Node modules
   * Node core modules
+  * [Importing and exporting from modules](https://github.com/bkager/Node-cookbook/blob/main/informational-importing-and-exporting-from-modules.md)
   * Recipe: Import the XXX module
   * Local modules
   * Recipe: Import and export your own modules
