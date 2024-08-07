@@ -52,7 +52,7 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
     * Learn: Writing simple JavaScript code in the Node REPL
   
 ### Simple Node programs
-  * [Recipe: Greeter * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
+  * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
   * [Recipe: Greeter + Names * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a program
