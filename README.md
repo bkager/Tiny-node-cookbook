@@ -5,6 +5,8 @@ Node is a popular way to write JavaScript that runs outside of the web browser. 
 
 This collection of Node recipes--tiny programs meant to demonstrate one or two features each--is intended to help you learn the basic features of Node in a friendly, incremental way.
 
+The book is currently in a very partial first draft. 
+
 ### Goals
 
 * Demonstrate basic features of Node by building tiny programs
