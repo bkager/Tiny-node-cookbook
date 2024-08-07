@@ -61,16 +61,12 @@ Notice that this program doesn't take any input--you can't, for example, give it
 * Node, as a JavaScript runtime environment, is a program that can read and execute a file of JavaScript code.
 * Name JavaScript files with a `.js` file extension.
 
-&nbsp;
-
 ___
 
 ## Bonus recipes
 
 * Create a new file in the same directory and have it output random insults instead. Run it from the command line.
 * Create a program that outputs the date and time.
-
- &nbsp;
 
 
 ## Resources
