@@ -4,6 +4,8 @@ Keeping your code modular is great: it's much easier to maintain and understand 
 
 There are two types of syntax for importing and exporting in modern JavaScript: the syntax you use with ES6 (ECMAScript) modules, which use `import` and `export` statements, and the kind you use with CommonJS modules, which use `module.exports` and `require()`. Node supports both types. CommonJS modules were the original system used by Node, and if you run across older tutorials, they're likely to only discuss CommonJS. 
 
+This section demonstrates importing and exporting. Future sections will give recipes to practice imports and exports with different types of modules, but this page is intended as a reference to the various syntaxes. 
+
 ## Which type of modules to use?
 
 ES6 modules are newer and are, per [the official JavaScript specification](https://tc39.es/ecma262/#sec-modules), the standard format for JavaScript modules. They offer performance improvements over CommonJS modules. In particular, ES6 modules can be loaded asynchronously, while CommonJS modules load synchronously and thus block other code execution. Node now supports ES6 modules but still treats CommonJS as the default—if you don't explictly set up modules as described in the next section, Node will treat your modules as CommonJS. 
