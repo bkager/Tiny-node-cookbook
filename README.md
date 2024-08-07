@@ -41,19 +41,19 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
   * The core Node modules (APIs)
 * [Node modules](https://github.com/bkager/Node-cookbook/blob/main/informational-modules-in-node.md)
   * The core modules, local modules, and 3rd party modules
-* [Importing and exporting from modules](https://github.com/bkager/Node-cookbook/blob/main/informational-importing-and-exporting-from-modules.md)
-* [Node globals](https://github.com/bkager/Node-cookbook/blob/main/informational-Node-globals.md)
+* [Importing and exporting from modules * ](https://github.com/bkager/Node-cookbook/blob/main/informational-importing-and-exporting-from-modules.md)
+* [Node globals * ](https://github.com/bkager/Node-cookbook/blob/main/informational-Node-globals.md)
   * The handful of modules and other objects that are always available. 
 
 ### The Node shell
-  * [The Node shell: Introduction](https://github.com/bkager/Node-cookbook/tree/main)
-  * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
+  * [The Node shell: Introduction * ](https://github.com/bkager/Node-cookbook/tree/main)
+  * [Recipe: Random Number Generator * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
 ### Simple Node programs
-  * [Recipe: Greeter](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
+  * [Recipe: Greeter * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-greeter.md)
     * Learn: Writing a simple program, JavaScript in the Node runtime environment
-  * [Recipe: Greeter + Names](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
+  * [Recipe: Greeter + Names * ](https://github.com/bkager/Node-cookbook/blob/main/recipe-name-greeter.md)
     * Learn: The process module, passing arguments to a program
   * Recipe: Goodbyer
     * The console in Node. Node's I/O. Piping it to another program. 
@@ -79,14 +79,14 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
     * Publish a package to npm, install it, use it, and unpublish it 
     
 ### The Node docs
-  * [Reading the Node docs website](https://github.com/bkager/Node-cookbook/blob/main/informational-reading-the-Node-docs.md)
-  * [Creating your own docs](https://github.com/bkager/Node-cookbook/blob/main/informational-creating-your-own-docs.md)
+  * [Reading the Node docs website * ](https://github.com/bkager/Node-cookbook/blob/main/informational-reading-the-Node-docs.md)
+  * [Creating your own docs * ](https://github.com/bkager/Node-cookbook/blob/main/informational-creating-your-own-docs.md)
   * The core modules; APIs, classes, and interfaces as concepts
   * Recipe: Examining the console or process module
     * Practice: Making use of the docs 
 
 ### Node events: Basics
-  * [Node and event-driven architecture](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
+  * [Node and event-driven architecture * ](https://github.com/bkager/Node-cookbook/blob/main/event-driven%20architecture.md)
   * The events module
     * The Node docs: our first module in depth
   * The EventEmitter class
