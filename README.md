@@ -48,7 +48,7 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
   * The handful of modules and other objects that are always available. 
 
 ### The Node REPL
-  * The Node REPL: Introduction
+  * [The Node REPL: Introduction](https://github.com/bkager/Tiny-node-cookbook/blob/main/informational-the-Node-REPL.md)
   * [Recipe: Random Number Generator](https://github.com/bkager/Node-cookbook/blob/main/recipe-random-number-generator.md)
     * Learn: Writing simple JavaScript code in the Node REPL
   
