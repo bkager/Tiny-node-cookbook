@@ -19,3 +19,5 @@ Explain here (https://github.com/bkager/Node-cookbook/edit/main/modules-in-node.
 Return to importing ES6 modules into CommonJS with fuller explanation. 
 
 Add discussion of __dirname, etc. in ES6 modules. 
+
+Reorg with reference sections in back to which people can be pointed--modules, etc.? Similar syntax to be referred to regularly?
