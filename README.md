@@ -61,7 +61,6 @@ Questions, suggestions, and corrections are very welcome! Open an issue on Githu
 
 ### IDEs
   * VSCode
-    * Switching over to using a modern coding environment
 
 ### Node modules
   * Node core modules
