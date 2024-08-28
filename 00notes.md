@@ -25,3 +25,5 @@ Reorganize with reference sections in back to which people can be pointed--modul
 Add more pointers to other frameworks/tools/etc.
 
 Add Express section eventually?
+
+Rework template. 
