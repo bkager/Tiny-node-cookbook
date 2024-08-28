@@ -27,3 +27,5 @@ Add more pointers to other frameworks/tools/etc.
 Add Express section eventually?
 
 Rework template. 
+
+Do more complete end-to-end exercises. 
