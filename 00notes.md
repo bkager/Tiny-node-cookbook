@@ -29,3 +29,5 @@ Add Express section eventually?
 Rework template. 
 
 Do more complete end-to-end exercises. 
+
+Update template after finishing Docs for Developers
