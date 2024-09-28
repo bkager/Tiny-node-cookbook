@@ -87,6 +87,6 @@ ___
 
 ### Up Next
 
-Link to next recipe or section
+[What's in Node?](https://github.com/bkager/Node-cookbook/blob/main/informational-whats-in-node-basics-section.md)
 
 [^1]: Interfaces and APIs are not exactly the same thing. In this case, the big-C Console API and the small-c console object/interface are effectively identical, but an API will often have more than one interface in it. More on the topic in this section [APIs and Interfaces](https://github.com/bkager/Tiny-node-cookbook/blob/main/informational-APIs-and-Interfaces.md).
